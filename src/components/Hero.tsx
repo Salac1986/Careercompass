@@ -25,11 +25,11 @@ const Hero = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight">
-            Transform Your Career & Master New Languages
+            Trasforma la Tua Carriera & Impara l'Inglese
           </h1>
           <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl font-sans">
-            Expert guidance in career coaching, student development, recruitment, and language education. 
-            Let's unlock your potential together.
+            Orientamento professionale per studenti e professionisti, insegnamento dell'inglese certificato CELTA, 
+            e lezioni di italiano. Realizziamo insieme il tuo potenziale.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
@@ -38,7 +38,7 @@ const Hero = () => {
               onClick={scrollToContact}
               className="text-base"
             >
-              Get Started <ArrowRight className="ml-2 h-5 w-5" />
+              Inizia Ora <ArrowRight className="ml-2 h-5 w-5" />
             </Button>
             <Button 
               variant="outline" 
@@ -46,7 +46,7 @@ const Hero = () => {
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
               className="text-base border-primary/30 hover:border-primary"
             >
-              Explore Services
+              Scopri i Servizi
             </Button>
           </div>
         </div>

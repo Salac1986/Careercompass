@@ -1,30 +1,30 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, GraduationCap, Users, Languages } from "lucide-react";
+import { Briefcase, GraduationCap, BookOpen, Languages } from "lucide-react";
 
 const services = [
   {
     icon: Briefcase,
-    title: "Career Coaching",
-    description: "Navigate your career path with confidence. Strategic guidance for career transitions, advancement, and professional development.",
-    highlights: ["Career Strategy", "Interview Prep", "Resume Building", "Salary Negotiation"]
+    title: "Orientamento Professionale",
+    description: "Guida esperta per professionisti che cercano crescita di carriera, transizioni lavorative o avanzamento professionale.",
+    highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
   },
   {
     icon: GraduationCap,
-    title: "Student Coaching",
-    description: "Empower students to achieve academic excellence. Personalized support for study skills, goal setting, and academic success.",
-    highlights: ["Study Techniques", "Time Management", "Goal Setting", "Academic Planning"]
+    title: "Orientamento per Studenti",
+    description: "Supporto personalizzato per studenti nella scelta del percorso di studi, orientamento universitario e pianificazione della carriera.",
+    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Piano di Studio", "Competenze Trasversali"]
   },
   {
-    icon: Users,
-    title: "Recruitment Services",
-    description: "Connect the right talent with the right opportunities. Expert recruitment solutions for businesses and job seekers.",
-    highlights: ["Talent Matching", "Candidate Screening", "Interview Coordination", "Market Insights"]
+    icon: BookOpen,
+    title: "Corsi di Inglese CELTA",
+    description: "Lezioni di inglese con insegnante certificato CELTA. Metodi comunicativi ed efficaci per tutti i livelli.",
+    highlights: ["Certificazione CELTA", "Inglese Conversazionale", "Preparazione Esami", "Business English"]
   },
   {
     icon: Languages,
-    title: "Language Classes",
-    description: "Master English and Italian with engaging, practical lessons. From beginners to advanced learners, tailored to your goals.",
-    highlights: ["English Lessons", "Italian Lessons", "Conversational Practice", "Cultural Immersion"]
+    title: "Lezioni di Italiano",
+    description: "Impara l'italiano con lezioni coinvolgenti e pratiche. Dai principianti ai livelli avanzati.",
+    highlights: ["Grammatica", "Conversazione", "Cultura Italiana", "Italiano per Lavoro"]
   }
 ];
 
@@ -34,10 +34,10 @@ const Services = () => {
       <div className="container px-4 md:px-6">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Services Designed for Your Success
+            Servizi Progettati per il Tuo Successo
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto font-sans">
-            Comprehensive coaching and educational services tailored to help you achieve your personal and professional goals.
+            Servizi di orientamento e formazione linguistica personalizzati per aiutarti a raggiungere i tuoi obiettivi personali e professionali.
           </p>
         </div>
 

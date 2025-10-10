@@ -4,11 +4,11 @@ import coachPortrait from "@/assets/coach-portrait.jpg";
 
 const About = () => {
   const credentials = [
-    "Certified Career Coach with 10+ years experience",
-    "Specialized in student development and academic coaching",
-    "Expert recruiter with extensive industry network",
-    "Native bilingual speaker (English & Italian)",
-    "Proven track record of client success stories"
+    "Career Advisor certificato con anni di esperienza",
+    "Specializzato in orientamento per studenti e professionisti",
+    "Insegnante certificato CELTA per l'inglese",
+    "Madrelingua bilingue (Inglese & Italiano)",
+    "Esperienza comprovata nel supporto al successo dei clienti"
   ];
 
   return (
@@ -32,16 +32,16 @@ const About = () => {
           {/* Content Side */}
           <div>
             <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Passionate About Your Growth
+              Appassionato della Tua Crescita
             </h2>
             <p className="text-lg text-muted-foreground mb-6 font-sans">
-              With a deep commitment to empowering individuals, I bring years of experience across career development, 
-              education, and language instruction. My approach combines professional expertise with genuine care for 
-              each client's unique journey.
+              Con un profondo impegno nel potenziare gli individui, porto anni di esperienza nello sviluppo professionale, 
+              nell'orientamento educativo e nell'insegnamento delle lingue. Il mio approccio combina competenza professionale 
+              con una sincera attenzione al percorso unico di ogni cliente.
             </p>
             <p className="text-lg text-muted-foreground mb-8 font-sans">
-              Whether you're navigating a career transition, pursuing academic excellence, or mastering a new language, 
-              I provide personalized guidance that transforms challenges into opportunities.
+              Che tu stia affrontando una transizione di carriera, perseguendo l'eccellenza accademica o imparando l'inglese, 
+              fornisco una guida personalizzata che trasforma le sfide in opportunità.
             </p>
 
             <div className="space-y-3">
