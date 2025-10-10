@@ -14,8 +14,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Playfair Display', 'Georgia', 'serif'],
+        sans: ['Lato', 'Roboto', 'Work Sans', 'system-ui', 'sans-serif'],
+        serif: ['Playfair Display', 'Merriweather', 'Cinzel', 'Georgia', 'serif'],
+        title: ['Playfair Display', 'Merriweather', 'Cinzel', 'serif'],
+        body: ['Lato', 'Roboto', 'Work Sans', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
