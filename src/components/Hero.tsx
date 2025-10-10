@@ -25,11 +25,10 @@ const Hero = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-3xl">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight font-sans bg-gradient-to-r from-primary-glow via-secondary to-primary-glow bg-clip-text text-transparent">
-            Trasforma la Tua Carriera & Impara l'Inglese
+            Career Advisor per studenti e professionisti
           </h1>
           <p className="text-lg md:text-xl text-foreground/90 mb-8 max-w-2xl font-sans font-medium">
-            Orientamento professionale per studenti e professionisti, insegnamento dell'inglese certificato CELTA, 
-            e lezioni di italiano. Realizziamo insieme il tuo potenziale.
+            Aiuto studenti e professionisti a (ri)trovare la propria direzione accademica e professionale
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
