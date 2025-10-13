@@ -22,10 +22,33 @@ const About = () => {
                 Esperienza & Qualifiche
               </h2>
             </div>
-            <p className="text-lg font-semibold text-foreground mb-8 font-body leading-relaxed">
-              Dopo anni come recruiter in aziende globali e nell'orientamento universitario, oggi metto la mia esperienza al servizio di chi vuole trovare la propria rotta professionale.
-              Ogni percorso è diverso: la mia bussola è l'ascolto, la chiarezza e l'esperienza sul campo.
-            </p>
+            <div className="space-y-6 text-foreground font-body leading-relaxed">
+              <h3 className="text-2xl font-bold text-secondary mb-4">La mia Storia</h3>
+              
+              <p className="text-base">
+                La mia passione per le lingue e le culture mi ha portato a laurearmi in Lingue all'Università Statale di Milano, con un'esperienza formativa anche all'MGU di Mosca. Fin dall'inizio, la curiosità per le storie delle persone e le dinamiche interculturali ha guidato le mie scelte professionali.
+              </p>
+
+              <p className="text-base">
+                Ho iniziato la mia carriera nel mondo dell'educazione internazionale, lavorando per quasi dieci anni in NABA (Nuova Accademia di Belle Arti), dove ho costruito e gestito una rete globale di recruitment in Europa, Russia, Turchia e Cina. In quegli anni ho imparato l'importanza di creare connessioni autentiche, di comprendere culture diverse e di guidare le persone verso le scelte giuste per il loro futuro.
+              </p>
+
+              <p className="text-base">
+                Il desiderio di approfondire il mondo HR e talent acquisition mi ha portato a conseguire un Master in Luxury Marketing & Communication presso Il Sole 24 Ore Business School e una certificazione in HR Management. Questo ha segnato il passaggio al recruiting corporate: ho lavorato con aziende come Amazon Italia, supportando programmi di graduate e internship, e oggi sono Global Talent Specialist presso Keywords Studios, dove recruito profili tech, art e marketing per oltre 77 studi di sviluppo videogiochi in tutto il mondo.
+              </p>
+
+              <p className="text-base">
+                Durante il mio percorso ho gestito processi di selezione end-to-end, costruito pipeline internazionali di talenti, ottimizzato sistemi ATS e CRM, e formato team di recruiter. Ma soprattutto, ho sviluppato una profonda comprensione di cosa significa orientarsi nel mondo del lavoro: dalle prime scelte universitarie, alle transizioni di carriera, fino alla ricerca del proprio allineamento professionale.
+              </p>
+
+              <p className="text-base">
+                Nel 2025 ho completato una certificazione professionale in Career Coaching, unendo formalmente la mia esperienza pratica alla metodologia del coaching. Oggi metto al servizio di studenti e professionisti tutto ciò che ho imparato in anni di recruiting globale, orientamento universitario e talent management.
+              </p>
+
+              <p className="text-base font-semibold">
+                La mia bussola è l'ascolto, la chiarezza e l'esperienza sul campo. Ogni percorso è diverso, e il mio obiettivo è aiutarti a trovare la tua direzione con strumenti concreti e supporto personalizzato.
+              </p>
+            </div>
 
             <div className="section-divider" />
 
