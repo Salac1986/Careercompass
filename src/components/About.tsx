@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
-import { CheckCircle2 } from "lucide-react";
-import profilePhoto from "@/assets/profile-photo.jpg";
+import { CheckCircle2, Compass } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 const About = () => {
   const credentials = [
@@ -43,17 +43,19 @@ const About = () => {
             </div>
           </div>
 
-          {/* Image Side */}
-          <div className="relative lg:order-2">
-            <Card className="overflow-hidden shadow-medium border-2 border-primary/20 max-w-sm mx-auto">
-              <div className="aspect-[3/4] relative">
+          {/* Logo Side */}
+          <div className="relative lg:order-2 flex items-center justify-center">
+            <div className="relative">
+              <div className="absolute inset-0 bg-secondary/20 rounded-full blur-3xl" />
+              <Card className="relative overflow-hidden shadow-medium border-2 border-primary/20 bg-background/80 backdrop-blur-sm p-12 rounded-2xl">
                 <img 
-                  src={profilePhoto}
-                  alt="Career Advisor"
-                  className="w-full h-full object-cover"
+                  src={logo}
+                  alt="Career Compass Logo"
+                  className="w-64 h-64 object-contain"
                 />
-              </div>
-            </Card>
+              </Card>
+              <Compass className="absolute -bottom-4 -right-4 w-24 h-24 text-secondary/30" strokeWidth={1} />
+            </div>
           </div>
         </div>
       </div>
