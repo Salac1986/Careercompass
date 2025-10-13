@@ -62,18 +62,35 @@ const About = () => {
             </div>
           </div>
 
-          {/* Logo Side */}
-          <div className="relative lg:order-2 flex items-center justify-center">
-            <div className="relative">
-              <div className="absolute inset-0 bg-secondary/20 rounded-full blur-3xl" />
-              <Card className="relative overflow-hidden shadow-medium border-2 border-primary/20 bg-background/80 backdrop-blur-sm p-12 rounded-2xl">
-                <img 
-                  src={logo}
-                  alt="Career Compass Logo"
-                  className="w-64 h-64 object-contain"
-                />
+          {/* Testimonials Side */}
+          <div className="relative lg:order-2">
+            <div className="border-l-8 border-secondary pl-6 mb-8">
+              <h3 className="text-3xl md:text-4xl font-bold text-foreground font-title">
+                Testimonial
+              </h3>
+            </div>
+            
+            <div className="space-y-6">
+              <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
+                <p className="text-foreground font-body italic mb-4">
+                  "Grazie a Cristina ho trovato la direzione giusta per la mia carriera. Il suo approccio pratico e la sua esperienza nel recruiting mi hanno aiutato a prepararmi al meglio per i colloqui nel settore tech."
+                </p>
+                <p className="text-secondary font-semibold">— Marco R., Software Engineer</p>
               </Card>
-              <Compass className="absolute -bottom-4 -right-4 w-24 h-24 text-secondary/30" strokeWidth={1} />
+
+              <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
+                <p className="text-foreground font-body italic mb-4">
+                  "L'orientamento per la scelta dell'università all'estero è stato fondamentale. Cristina conosce perfettamente il sistema universitario internazionale e mi ha guidato passo dopo passo."
+                </p>
+                <p className="text-secondary font-semibold">— Sofia M., Studentessa universitaria</p>
+              </Card>
+
+              <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
+                <p className="text-foreground font-body italic mb-4">
+                  "Un percorso che mi ha permesso di cambiare settore con consapevolezza. La sua esperienza nel mondo corporate è stata preziosa per capire come posizionarmi sul mercato."
+                </p>
+                <p className="text-secondary font-semibold">— Andrea T., Marketing Manager</p>
+              </Card>
             </div>
           </div>
         </div>
