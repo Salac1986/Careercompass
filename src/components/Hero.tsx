@@ -23,27 +23,32 @@ const Hero = () => {
 
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6">
-        <div className="max-w-3xl">
-          <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 leading-tight font-sans text-foreground">
+        <div className="max-w-4xl">
+          <div className="mb-6 inline-block">
+            <span className="px-6 py-2 bg-secondary/20 border-2 border-secondary text-secondary-foreground font-bold text-sm uppercase tracking-wider rounded-full">
+              Career Advisory & Coaching
+            </span>
+          </div>
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight">
             Career Advisor per studenti e professionisti
           </h1>
-          <p className="text-lg md:text-xl text-foreground/90 mb-8 max-w-2xl font-sans font-medium">
+          <p className="text-xl md:text-2xl text-foreground mb-10 max-w-2xl font-sans font-bold leading-relaxed">
             Aiuto studenti e professionisti a (ri)trovare la propria direzione accademica e professionale
           </p>
-          <div className="flex flex-col sm:flex-row gap-4">
+          <div className="flex flex-col sm:flex-row gap-6">
             <Button 
               variant="hero" 
               size="lg"
               onClick={scrollToContact}
-              className="text-base"
+              className="text-lg font-bold px-10 py-6 h-auto"
             >
-              Inizia Ora <ArrowRight className="ml-2 h-5 w-5" />
+              Inizia Ora <ArrowRight className="ml-2 h-6 w-6" />
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-base border-primary/30 hover:border-primary"
+              className="text-lg font-bold px-10 py-6 h-auto border-2 border-foreground/20 hover:border-primary hover:bg-primary/10"
             >
               Scopri i Servizi
             </Button>

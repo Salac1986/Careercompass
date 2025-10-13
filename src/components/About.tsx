@@ -12,43 +12,47 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="py-20 bg-background">
+    <section id="about" className="cv-section bg-background">
       <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Image Side */}
           <div className="relative">
-            <Card className="overflow-hidden shadow-medium border-border/50">
-              <div className="aspect-square">
+            <Card className="overflow-hidden shadow-medium border-4 border-primary/30">
+              <div className="aspect-square relative">
                 <img 
                   src={coachPortrait}
                   alt="Professional Coach"
                   className="w-full h-full object-cover"
                 />
+                <div className="absolute inset-0 border-8 border-background/10" />
               </div>
             </Card>
-            <div className="absolute -bottom-6 -right-6 w-48 h-48 gradient-hero rounded-full blur-3xl opacity-20 -z-10" />
+            <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-secondary/20 rounded-3xl -z-10" />
           </div>
 
           {/* Content Side */}
           <div>
-            <h2 className="text-3xl md:text-5xl font-bold mb-6">
-              Appassionato della Tua Crescita
-            </h2>
-            <p className="text-lg text-muted-foreground mb-6 font-sans">
+            <div className="border-l-8 border-secondary pl-6 mb-8">
+              <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight">
+                Esperienza & Qualifiche
+              </h2>
+            </div>
+            <p className="text-lg font-bold text-foreground mb-6 font-sans leading-relaxed">
               Con un profondo impegno nel potenziare gli individui, porto anni di esperienza nello sviluppo professionale, 
-              nell'orientamento educativo e nell'insegnamento delle lingue. Il mio approccio combina competenza professionale 
-              con una sincera attenzione al percorso unico di ogni cliente.
+              nell'orientamento educativo e nell'insegnamento delle lingue.
             </p>
-            <p className="text-lg text-muted-foreground mb-8 font-sans">
-              Che tu stia affrontando una transizione di carriera, perseguendo l'eccellenza accademica o imparando l'inglese, 
-              fornisco una guida personalizzata che trasforma le sfide in opportunità.
+            <p className="text-lg text-muted-foreground mb-8 font-sans leading-relaxed">
+              Il mio approccio combina competenza professionale con una sincera attenzione al percorso unico di ogni cliente, 
+              trasformando le sfide in opportunità concrete.
             </p>
 
-            <div className="space-y-3">
+            <div className="section-divider" />
+
+            <div className="space-y-4 mt-8">
               {credentials.map((credential, index) => (
-                <div key={index} className="flex items-start gap-3">
-                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-0.5" />
-                  <span className="text-foreground font-sans">{credential}</span>
+                <div key={index} className="flex items-start gap-4 p-4 bg-accent/20 rounded-lg border-l-4 border-primary">
+                  <CheckCircle2 className="h-6 w-6 text-secondary flex-shrink-0 mt-1" strokeWidth={3} />
+                  <span className="text-foreground font-sans font-bold text-base">{credential}</span>
                 </div>
               ))}
             </div>
