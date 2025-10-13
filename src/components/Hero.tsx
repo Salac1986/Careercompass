@@ -25,16 +25,16 @@ const Hero = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-4xl">
           <div className="mb-6 inline-block">
-            <span className="px-6 py-2 bg-secondary/20 border-2 border-secondary text-secondary-foreground font-bold text-sm uppercase tracking-wider rounded-full">
+            <span className="px-6 py-2 bg-secondary/20 border-2 border-secondary text-secondary-foreground font-title font-bold text-sm uppercase tracking-wider rounded-full">
               Career Advisory & Coaching
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight">
-            Career Advisor per studenti e professionisti
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-primary tracking-tight font-title">
+            Compass - career advisor
           </h1>
-          <p className="text-xl md:text-2xl text-foreground mb-10 max-w-2xl font-sans font-bold leading-relaxed">
-            Aiuto studenti e professionisti a (ri)trovare la propria direzione accademica e professionale
-          </p>
+          <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-body font-medium leading-relaxed">
+            Aiuto professionisti e studenti a (ri)trovare la propria direzione nel lavoro e nello studio
+          </h2>
           <div className="flex flex-col sm:flex-row gap-6">
             <Button 
               variant="hero" 

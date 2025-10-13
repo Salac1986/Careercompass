@@ -44,10 +44,10 @@ const Contact = () => {
       <div className="container px-4 md:px-6">
         <div className="mb-20">
           <div className="border-l-8 border-secondary pl-6">
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight">
+            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-title text-primary">
               Contattami
             </h2>
-            <p className="text-xl font-bold text-muted-foreground max-w-2xl">
+            <p className="text-xl font-body font-medium text-muted-foreground max-w-2xl">
               Pronto per fare il prossimo passo? Discutiamo i tuoi obiettivi.
             </p>
           </div>
@@ -61,8 +61,8 @@ const Contact = () => {
                 <div className="w-14 h-14 rounded-xl bg-secondary/20 border-2 border-secondary/50 flex items-center justify-center mb-3">
                   <Mail className="h-7 w-7 text-secondary" strokeWidth={2.5} />
                 </div>
-                <CardTitle className="text-xl font-extrabold">Email</CardTitle>
-                <CardDescription className="font-sans font-bold text-base">
+                <CardTitle className="text-xl font-extrabold font-title">Email</CardTitle>
+                <CardDescription className="font-body font-semibold text-base">
                   tuoemail@example.com
                 </CardDescription>
               </CardHeader>
@@ -73,8 +73,8 @@ const Contact = () => {
                 <div className="w-14 h-14 rounded-xl bg-secondary/20 border-2 border-secondary/50 flex items-center justify-center mb-3">
                   <Phone className="h-7 w-7 text-secondary" strokeWidth={2.5} />
                 </div>
-                <CardTitle className="text-xl font-extrabold">Telefono</CardTitle>
-                <CardDescription className="font-sans font-bold text-base">
+                <CardTitle className="text-xl font-extrabold font-title">Telefono</CardTitle>
+                <CardDescription className="font-body font-semibold text-base">
                   +39 XXX XXX XXXX
                 </CardDescription>
               </CardHeader>
@@ -85,8 +85,8 @@ const Contact = () => {
                 <div className="w-14 h-14 rounded-xl bg-secondary/20 border-2 border-secondary/50 flex items-center justify-center mb-3">
                   <MapPin className="h-7 w-7 text-secondary" strokeWidth={2.5} />
                 </div>
-                <CardTitle className="text-xl font-extrabold">Sede</CardTitle>
-                <CardDescription className="font-sans font-bold text-base">
+                <CardTitle className="text-xl font-extrabold font-title">Sede</CardTitle>
+                <CardDescription className="font-body font-semibold text-base">
                   Online e in Presenza
                 </CardDescription>
               </CardHeader>
@@ -96,8 +96,8 @@ const Contact = () => {
           {/* Contact Form */}
           <Card className="lg:col-span-2 shadow-medium border-2 border-border/50 bg-card">
             <CardHeader className="border-b-2 border-border/30 pb-6">
-              <CardTitle className="text-3xl font-extrabold">Invia un Messaggio</CardTitle>
-              <CardDescription className="font-sans font-bold text-base">
+              <CardTitle className="text-3xl font-extrabold font-title">Invia un Messaggio</CardTitle>
+              <CardDescription className="font-body font-semibold text-base">
                 Compila il modulo qui sotto e ti risponderò entro 24 ore.
               </CardDescription>
             </CardHeader>
