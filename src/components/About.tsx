@@ -22,13 +22,9 @@ const About = () => {
                 Esperienza & Qualifiche
               </h2>
             </div>
-            <p className="text-lg font-semibold text-foreground mb-6 font-body leading-relaxed">
-              Con un profondo impegno nel potenziare gli individui, porto anni di esperienza nello sviluppo professionale 
-              e nell'orientamento educativo.
-            </p>
-            <p className="text-lg text-muted-foreground mb-8 font-body leading-relaxed">
-              Il mio approccio combina competenza professionale con una sincera attenzione al percorso unico di ogni cliente, 
-              trasformando le sfide in opportunità concrete.
+            <p className="text-lg font-semibold text-foreground mb-8 font-body leading-relaxed">
+              Con un profondo impegno nel potenziare le persone, porto anni di esperienza nel recruiting aziendale e universitario 
+              al servizio di chi vuole trovare la propria direzione professionale in modo pratico e realistico.
             </p>
 
             <div className="section-divider" />
