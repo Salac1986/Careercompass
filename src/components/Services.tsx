@@ -12,7 +12,7 @@ const services = [
     icon: GraduationCap,
     title: "Orientamento per Studenti",
     description: "Supporto personalizzato per studenti nella scelta del percorso di studi, orientamento universitario e pianificazione della carriera.",
-    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Piano di Studio", "Competenze Trasversali"]
+    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Competenze Trasversali"]
   }
 ];
 
@@ -26,7 +26,7 @@ const Services = () => {
               Servizi Professionali
             </h2>
             <p className="text-xl font-body font-medium text-muted-foreground max-w-2xl">
-              Soluzioni personalizzate per studenti e professionisti
+              Percorsi personalizzati per studenti e professionisti
             </p>
           </div>
         </div>
