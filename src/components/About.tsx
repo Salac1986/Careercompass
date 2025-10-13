@@ -23,8 +23,8 @@ const About = () => {
               </h2>
             </div>
             <p className="text-lg font-semibold text-foreground mb-8 font-body leading-relaxed">
-              Con un profondo impegno nel potenziare le persone, porto anni di esperienza nel recruiting aziendale e universitario 
-              al servizio di chi vuole trovare la propria direzione professionale in modo pratico e realistico.
+              Dopo anni come recruiter in aziende globali e nell'orientamento universitario, oggi metto la mia esperienza al servizio di chi vuole trovare la propria rotta professionale.
+              Ogni percorso è diverso: la mia bussola è l'ascolto, la chiarezza e l'esperienza sul campo.
             </p>
 
             <div className="section-divider" />

@@ -26,14 +26,14 @@ const Hero = () => {
         <div className="max-w-4xl">
           <div className="mb-6 inline-block">
             <span className="px-6 py-2 bg-secondary/20 border-2 border-secondary text-secondary-foreground font-title font-bold text-sm uppercase tracking-wider rounded-full">
-              Career Advisory & Coaching
+              Career Compass
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-title">
-            Compass - career advisor
+            La bussola per orientarti nel lavoro e nello studio.
           </h1>
           <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-body font-medium leading-relaxed">
-            Aiuto professionisti e studenti a (ri)trovare la propria direzione nel lavoro e nello studio
+            Ti aiuto a (ri)trovare la tua direzione professionale, con percorsi pratici e personalizzati.
           </h2>
           <div className="flex flex-col sm:flex-row gap-6">
             <Button 

@@ -5,13 +5,13 @@ const services = [
   {
     icon: Briefcase,
     title: "Orientamento Professionale",
-    description: "Guida esperta per professionisti che cercano crescita di carriera, transizioni lavorative o avanzamento professionale.",
+    description: "Guida per chi vuole cambiare direzione nella propria carriera: crescita, transizione o ridefinizione professionale.",
     highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
   },
   {
     icon: GraduationCap,
     title: "Orientamento per Studenti",
-    description: "Supporto personalizzato per studenti nella scelta del percorso di studi, orientamento universitario e pianificazione della carriera.",
+    description: "Per studenti che cercano la loro direzione: dall'università in Italia o all'estero, alle prime scelte professionali, passo dopo passo.",
     highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Competenze Trasversali"]
   }
 ];
@@ -26,7 +26,7 @@ const Services = () => {
               Servizi Professionali
             </h2>
             <p className="text-xl font-body font-medium text-muted-foreground max-w-2xl">
-              Percorsi personalizzati per studenti e professionisti
+              Percorsi su misura per ritrovare la tua rotta — che tu sia all'inizio del viaggio o pronto a cambiare direzione.
             </p>
           </div>
         </div>
