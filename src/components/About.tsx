@@ -26,7 +26,7 @@ const About = () => {
               <h3 className="text-2xl font-bold text-secondary mb-4">La mia Storia</h3>
               
               <p className="text-base">
-                La mia passione per le lingue e le culture mi ha portato a laurearmi in Lingue all'Università Statale di Milano, con un'esperienza formativa anche all'MGU di Mosca. Fin dall'inizio, la curiosità per le storie delle persone e le dinamiche interculturali ha guidato le mie scelte professionali.
+                La mia passione per le lingue e le culture mi ha portato a laurearmi in Lingue all'Università Statale di Milano. La voglia di esplorare il mondo mi ha spinto a partire per Mosca per un'esperienza formativa all'MGU che doveva essere breve, ma si è poi trasformata in un'opportunità lavorativa a lungo termine. Fin dall'inizio, la curiosità per le storie delle persone e le dinamiche interculturali ha guidato le mie scelte professionali.
               </p>
 
               <p className="text-base">
