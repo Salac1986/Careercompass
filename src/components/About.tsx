@@ -4,9 +4,9 @@ import logo from "@/assets/logo.png";
 
 const About = () => {
   const credentials = [
-    "Career Advisor certificato con anni di esperienza",
-    "Specializzato in orientamento per studenti e professionisti",
-    "Esperienza comprovata nel supporto al successo dei clienti",
+    "Recruiter e career advisor con anni di esperienza in aziende globali e multinazionali",
+    "Specializzata nel recruiting nel mondo big tech e videogames",
+    "Esperta del mondo universitario italiano e estero",
     "Approccio personalizzato e orientato ai risultati"
   ];
 
