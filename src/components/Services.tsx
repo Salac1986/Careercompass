@@ -22,7 +22,7 @@ const Services = () => {
       <div className="container px-4 md:px-6">
         <div className="mb-20">
           <div className="border-l-8 border-secondary pl-6 mb-8">
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-title text-primary">
+            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-title text-foreground">
               Servizi Professionali
             </h2>
             <p className="text-xl font-body font-medium text-muted-foreground max-w-2xl">
@@ -45,7 +45,7 @@ const Services = () => {
                       <Icon className="h-10 w-10 text-secondary" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-2xl font-extrabold mb-2 font-title text-primary">{service.title}</CardTitle>
+                      <CardTitle className="text-2xl font-extrabold mb-2 font-title text-foreground">{service.title}</CardTitle>
                     </div>
                   </div>
                   <CardDescription className="text-base font-body font-normal leading-relaxed">

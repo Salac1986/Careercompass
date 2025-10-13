@@ -32,7 +32,7 @@ const About = () => {
           {/* Content Side */}
           <div>
             <div className="border-l-8 border-secondary pl-6 mb-8">
-              <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-title text-primary">
+              <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-title text-foreground">
                 Esperienza & Qualifiche
               </h2>
             </div>

@@ -44,7 +44,7 @@ const Contact = () => {
       <div className="container px-4 md:px-6">
         <div className="mb-20">
           <div className="border-l-8 border-secondary pl-6">
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-title text-primary">
+            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-title text-foreground">
               Contattami
             </h2>
             <p className="text-xl font-body font-medium text-muted-foreground max-w-2xl">

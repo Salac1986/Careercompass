@@ -8,7 +8,7 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden mt-20">
       {/* Background Image with Overlay */}
       <div 
         className="absolute inset-0 z-0"
@@ -29,7 +29,7 @@ const Hero = () => {
               Career Advisory & Coaching
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-primary tracking-tight font-title">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-title">
             Compass - career advisor
           </h1>
           <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-body font-medium leading-relaxed">
