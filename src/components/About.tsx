@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
-import coachPortrait from "@/assets/coach-portrait.jpg";
+import profilePhoto from "@/assets/profile-photo.jpg";
 
 const About = () => {
   const credentials = [
@@ -14,21 +14,7 @@ const About = () => {
     <section id="about" className="cv-section bg-background">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
-          {/* Image Side */}
-          <div className="relative">
-            <Card className="overflow-hidden shadow-medium border-4 border-primary/30">
-              <div className="aspect-square relative">
-                <img 
-                  src={coachPortrait}
-                  alt="Professional Coach"
-                  className="w-full h-full object-cover"
-                />
-                <div className="absolute inset-0 border-8 border-background/10" />
-              </div>
-            </Card>
-            <div className="absolute -bottom-8 -right-8 w-64 h-64 bg-secondary/20 rounded-3xl -z-10" />
-          </div>
-
+          
           {/* Content Side */}
           <div>
             <div className="border-l-8 border-secondary pl-6 mb-8">
@@ -55,6 +41,19 @@ const About = () => {
                 </div>
               ))}
             </div>
+          </div>
+
+          {/* Image Side */}
+          <div className="relative lg:order-2">
+            <Card className="overflow-hidden shadow-medium border-2 border-primary/20 max-w-sm mx-auto">
+              <div className="aspect-[3/4] relative">
+                <img 
+                  src={profilePhoto}
+                  alt="Career Advisor"
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            </Card>
           </div>
         </div>
       </div>

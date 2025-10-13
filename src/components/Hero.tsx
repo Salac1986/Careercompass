@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroCompass from "@/assets/hero-compass.jpg";
 
 const Hero = () => {
   const scrollToContact = () => {
@@ -13,7 +13,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 z-0"
         style={{
-          backgroundImage: `url(${heroBackground})`,
+          backgroundImage: `url(${heroCompass})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}

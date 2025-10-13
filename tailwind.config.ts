@@ -14,10 +14,10 @@ export default {
     },
     extend: {
       fontFamily: {
-        sans: ['Lato', 'Roboto', 'Work Sans', 'system-ui', 'sans-serif'],
-        serif: ['Playfair Display', 'Merriweather', 'Cinzel', 'Georgia', 'serif'],
-        title: ['Playfair Display', 'Merriweather', 'Cinzel', 'serif'],
-        body: ['Lato', 'Roboto', 'Work Sans', 'sans-serif'],
+        sans: ['Inter', 'system-ui', 'sans-serif'],
+        serif: ['Libre Baskerville', 'Crimson Text', 'Georgia', 'serif'],
+        title: ['Libre Baskerville', 'serif'],
+        body: ['Inter', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
