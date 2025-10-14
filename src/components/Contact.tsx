@@ -17,8 +17,34 @@ const Contact = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Calendly Booking */}
+          <Card className="lg:col-span-2 shadow-medium border-2 border-border/50 bg-card lg:order-2">
+            <CardHeader className="border-b-2 border-border/30 pb-6">
+              <div className="flex items-center gap-4 mb-2">
+                <div className="w-14 h-14 rounded-xl bg-secondary/20 border-2 border-secondary/50 flex items-center justify-center">
+                  <Calendar className="h-7 w-7 text-secondary" strokeWidth={2.5} />
+                </div>
+                <CardTitle className="text-3xl font-extrabold font-title">Prenota una Consulenza Gratuita</CardTitle>
+              </div>
+              <CardDescription className="font-body font-semibold text-base">
+                Seleziona una data e un orario che funzionano per te. La prima consulenza è completamente gratuita.
+              </CardDescription>
+            </CardHeader>
+            <CardContent className="p-0">
+              <div className="w-full h-[700px]">
+                <iframe
+                  src="https://calendly.com/cristina-salac86"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  title="Prenota una consulenza"
+                ></iframe>
+              </div>
+            </CardContent>
+          </Card>
+
           {/* Contact Info Cards */}
-          <div className="space-y-6">
+          <div className="space-y-6 lg:order-1">
             <Card className="shadow-medium border-2 border-border/50 bg-card">
               <CardHeader>
                 <div className="w-14 h-14 rounded-xl bg-secondary/20 border-2 border-secondary/50 flex items-center justify-center mb-3">
@@ -43,32 +69,6 @@ const Contact = () => {
               </CardHeader>
             </Card>
           </div>
-
-          {/* Calendly Booking */}
-          <Card className="lg:col-span-2 shadow-medium border-2 border-border/50 bg-card">
-            <CardHeader className="border-b-2 border-border/30 pb-6">
-              <div className="flex items-center gap-4 mb-2">
-                <div className="w-14 h-14 rounded-xl bg-secondary/20 border-2 border-secondary/50 flex items-center justify-center">
-                  <Calendar className="h-7 w-7 text-secondary" strokeWidth={2.5} />
-                </div>
-                <CardTitle className="text-3xl font-extrabold font-title">Prenota una Consulenza Gratuita</CardTitle>
-              </div>
-              <CardDescription className="font-body font-semibold text-base">
-                Seleziona una data e un orario che funzionano per te. La prima consulenza è completamente gratuita.
-              </CardDescription>
-            </CardHeader>
-            <CardContent className="p-0">
-              <div className="w-full h-[700px]">
-                <iframe
-                  src="https://calendly.com/cristina-salac86"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  title="Prenota una consulenza"
-                ></iframe>
-              </div>
-            </CardContent>
-          </Card>
         </div>
       </div>
     </section>
