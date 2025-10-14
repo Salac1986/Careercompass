@@ -19,34 +19,30 @@ const About = () => {
           <div>
             <div className="border-l-8 border-secondary pl-6 mb-8">
               <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-title text-foreground">
-                Esperienza & Qualifiche
+                Chi Sono
               </h2>
             </div>
             <div className="space-y-6 text-foreground font-body leading-relaxed">
-              <h3 className="text-2xl font-bold text-secondary mb-4">La mia Storia</h3>
+              <h3 className="text-2xl font-bold text-secondary mb-4">La mia storia</h3>
               
               <p className="text-base">
-                La mia passione per le lingue e le culture mi ha portato a laurearmi in Lingue all'Università Statale di Milano. La voglia di esplorare il mondo mi ha spinto a partire per Mosca per un'esperienza formativa all'MGU che doveva essere breve, ma si è poi trasformata in un'opportunità lavorativa a lungo termine. Fin dall'inizio, la curiosità per le storie delle persone e le dinamiche interculturali ha guidato le mie scelte professionali.
+                Fin da bambina sono stata affascinata dalle lingue, e per me era inevitabile che finissi per studiarle: dopo la laurea in Lingue (russo e giapponese) alla Statale di Milano sono volata a Mosca per un'esperienza all'Università Lomonosov (MGU) che, da breve soggiorno, si è trasformata in un lungo capitolo di vita e lavoro. 
               </p>
 
               <p className="text-base">
-                Ho iniziato la mia carriera nel mondo dell'educazione internazionale, lavorando per quasi dieci anni in NABA (Nuova Accademia di Belle Arti), dove ho costruito e gestito una rete globale di recruitment in Europa, Russia, Turchia e Cina. In quegli anni ho imparato l'importanza di creare connessioni autentiche, di comprendere culture diverse e di guidare le persone verso le scelte giuste per il loro futuro.
+                Al mio rientro in Italia, per quasi dieci anni ho lavorato nel settore dell'educazione internazionale, sviluppando una rete globale di recruiting tra Europa, Russia, Turchia e Cina. Lì ho imparato quanto conti creare connessioni, gestire le vendite, ma soprattutto, ad accompagnare le persone verso le scelte giuste per loro.
               </p>
 
               <p className="text-base">
-                Il desiderio di approfondire il mondo HR e talent acquisition mi ha portato a conseguire un Master in Luxury Marketing & Communication presso Il Sole 24 Ore Business School e una certificazione in HR Management. Questo ha segnato il passaggio al recruiting corporate: ho lavorato con aziende come Amazon Italia, supportando programmi di graduate e internship, e oggi sono Global Talent Specialist presso Keywords Studios, dove recruito profili tech, art e marketing per oltre 77 studi di sviluppo videogiochi in tutto il mondo.
+                Poi è arrivato il salto nel mondo corporate: un Master in Luxury Marketing & Communication (Il Sole 24 Ore Business School), una certificazione in HR Management e nuove sfide in aziende come Amazon Italia e, oggi, Keywords Studios, dove recluto talenti tech, art e marketing per studi di videogiochi in tutto il mondo.
               </p>
 
               <p className="text-base">
-                Durante il mio percorso ho gestito processi di selezione end-to-end, costruito pipeline internazionali di talenti, ottimizzato sistemi ATS e CRM, e formato team di recruiter. Ma soprattutto, ho sviluppato una profonda comprensione di cosa significa orientarsi nel mondo del lavoro: dalle prime scelte universitarie, alle transizioni di carriera, fino alla ricerca del proprio allineamento professionale.
+                Vivendo in prima persona la volatilità del mercato del lavoro, ho imparato che oggi sopravvivere professionalmente è una questione di adattabilità. 
               </p>
 
               <p className="text-base">
-                Nel 2025 ho completato una certificazione professionale in Career Coaching, unendo formalmente la mia esperienza pratica alla metodologia del coaching. Oggi metto al servizio di studenti e professionisti tutto ciò che ho imparato in anni di recruiting globale, orientamento universitario e talent management.
-              </p>
-
-              <p className="text-base font-semibold">
-                La mia bussola è l'ascolto, la chiarezza e l'esperienza sul campo. Ogni percorso è diverso, e il mio obiettivo è aiutarti a trovare la tua direzione con strumenti concreti e supporto personalizzato.
+                So cosa vuol dire sentirsi disorientati o bloccati, e voglio aiutare chi si trova in quella fase a ritrovare direzione, fiducia e strumenti concreti per ripartire.
               </p>
             </div>
 
