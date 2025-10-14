@@ -6,7 +6,7 @@ const About = () => {
   const credentials = [
     "Recruiter e career coach con esperienza in aziende globali e multinazionali",
     "Percorso trasversale tra education, big tech e videogames, in ruoli da sales a talent acquisition",
-    "Aiuto i professionisti a fare chiarezza e costruire un piano, e gli studenti a districarsi nella giungla dei percorsi universitari in Italia e all'estero"
+    "Aiuto professionisti a fare chiarezza e costruire un percorso di sviluppo, e studenti a orientarsi tra i diversi percorsi universitari in Italia e all'estero"
   ];
 
   return (
