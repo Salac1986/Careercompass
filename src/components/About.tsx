@@ -68,23 +68,23 @@ const About = () => {
             <div className="space-y-6">
               <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
                 <p className="text-foreground font-body italic mb-4">
-                  "Grazie a Cristina ho trovato la direzione giusta per la mia carriera. Il suo approccio pratico e la sua esperienza nel recruiting mi hanno aiutato a prepararmi al meglio per i colloqui nel settore tech."
+                  "Grazie al bilancio delle competenze con Salac e alla revisione completa del mio CV, sono riuscita a capire meglio i miei punti di forza e a presentarli in modo chiaro. Dopo anni di immobilismo nel mio vecchio lavoro, sono riuscita a dare una direzione alle mie esperienze e a trovare lavoro in una multinazionale con ampie possibilità di crescita interne"
                 </p>
-                <p className="text-secondary font-semibold">— Marco R., Software Engineer</p>
+                <p className="text-secondary font-semibold">— Claudia</p>
               </Card>
 
               <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
                 <p className="text-foreground font-body italic mb-4">
-                  "L'orientamento per la scelta dell'università all'estero è stato fondamentale. Cristina conosce perfettamente il sistema universitario internazionale e mi ha guidato passo dopo passo."
+                  "Non avevo idea che il mio CV fosse così lungo e disorganizzato, né che i recruiter e i sistemi ATS filtrassero i candidati in quel modo. Lavorare con Salac mi ha aperto gli occhi: abbiamo tagliato il superfluo, messo in evidenza le cose importanti e reso il mio profilo davvero leggibile. Dopo un periodo di disoccupazione, ho trovato il lavoro perfetto per me"
                 </p>
-                <p className="text-secondary font-semibold">— Sofia M., Studentessa universitaria</p>
+                <p className="text-secondary font-semibold">— Francesco</p>
               </Card>
 
               <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
                 <p className="text-foreground font-body italic mb-4">
-                  "Un percorso che mi ha permesso di cambiare settore con consapevolezza. La sua esperienza nel mondo corporate è stata preziosa per capire come posizionarmi sul mercato."
+                  "Dopo un lungo periodo di disoccupazione e tanta incertezza sulla mia carriera, mi sono rivolta a Salac. Il percorso con lei è stato fondamentale: mi ha aiutata a fare chiarezza sui miei punti di forza, a costruire un piano concreto e a prepararmi passo passo. Grazie ai suoi consigli mirati, sono riuscita a superare con successo tutti i colloqui e a entrare in Amazon, ottenendo il lavoro dei miei sogni. Non ce l'avrei mai fatta da sola!"
                 </p>
-                <p className="text-secondary font-semibold">— Andrea T., Marketing Manager</p>
+                <p className="text-secondary font-semibold">— Federica</p>
               </Card>
             </div>
           </div>
