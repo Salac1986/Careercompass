@@ -23,26 +23,28 @@ const About = () => {
               </h2>
             </div>
             <div className="space-y-6 text-foreground font-body leading-relaxed">
-              <h3 className="text-2xl font-bold text-secondary mb-4">La mia storia</h3>
-              
               <p className="text-base">
-                Fin da bambina sono stata affascinata dalle lingue, e per me era inevitabile che finissi per studiarle: dopo la laurea in Lingue (russo e giapponese) alla Statale di Milano sono volata a Mosca per un'esperienza all'Università Lomonosov (MGU) che, da breve soggiorno, si è trasformata in un lungo capitolo di vita e lavoro. 
+                Ciao, io sono Cristina.
               </p>
 
               <p className="text-base">
-                Al mio rientro in Italia, per quasi dieci anni ho lavorato nel settore dell'educazione internazionale, sviluppando una rete globale di recruiting tra Europa, Russia, Turchia e Cina. Lì ho imparato quanto conti creare connessioni, gestire le vendite, ma soprattutto, ad accompagnare le persone verso le scelte giuste per loro.
+                Fin da bambina sono stata affascinata dalle lingue, e dopo la laurea in Lingue (russo e giapponese) alla Statale di Milano sono volata a Mosca per un'esperienza all'Università Lomonosov (MGU) che, da breve soggiorno, si è trasformata in un lungo capitolo di vita e lavoro.
               </p>
 
               <p className="text-base">
-                Poi è arrivato il salto nel mondo corporate: un Master in Luxury Marketing & Communication (Il Sole 24 Ore Business School), una certificazione in HR Management e nuove sfide in aziende come Amazon Italia e, oggi, Keywords Studios, dove recluto talenti tech, art e marketing per studi di videogiochi in tutto il mondo.
+                Al mio rientro in Italia ho lavorato nel settore dell'educazione internazionale, recruitando studenti stranieri per programmi di arte, moda, media e grafica. In quegli anni ho sviluppato una doppia competenza: da un lato la gestione delle vendite, diventando Area Manager per Europa e Turchia, dall'altro l'empatia necessaria per guidare le persone verso le scelte più adatte a loro.
               </p>
 
               <p className="text-base">
-                Vivendo in prima persona la volatilità del mercato del lavoro, ho imparato che oggi sopravvivere professionalmente è una questione di adattabilità. 
+                Dopo un periodo nel settore industriale, troppo arido per me, sono rientrata nella formazione aziendale, occupandomi dei processi di learning & development per diverse aziende nel settore linguistico e della localizzazione. È stato allora che ho capito cosa mi mancava davvero: il recruiting, sedermi con le persone, capire le loro storie e attitudini, e accompagnarle nel mondo del lavoro.
               </p>
 
               <p className="text-base">
-                So cosa vuol dire sentirsi disorientati o bloccati, e voglio aiutare chi si trova in quella fase a ritrovare direzione, fiducia e strumenti concreti per ripartire.
+                Dopo un corso di HR Management sono entrata come recruiter in Amazon e oggi lavoro in Keywords Studios, supportando team globali nel recruiting di artisti — la mia vera passione — sviluppatori, professionisti di marketing, operations, sales e C-level.
+              </p>
+
+              <p className="text-base">
+                Il mondo del lavoro cambia rapidamente e non tutti hanno le idee chiare su cosa vogliono fare (io stessa ci ho messo anni per capirlo). So cosa vuol dire sentirsi disorientati o bloccati, e voglio aiutare chi si trova in quella fase a ritrovare direzione, fiducia e strumenti concreti per ripartire.
               </p>
             </div>
 
