@@ -7,7 +7,7 @@ const About = () => {
     "Recruiter e career coach con esperienza in aziende globali e multinazionali",
     "Percorso trasversale tra education, big tech e videogames, in ruoli da sales a talent acquisition",
     "Aiuto professionisti a fare chiarezza e costruire un percorso di sviluppo, e studenti a orientarsi tra i diversi percorsi universitari in Italia e all'estero",
-    "Ti aiuto a capire e integrare l'AI nel tuo lavoro e nella tua carriera"
+    "Supporto le aziende nella ricerca e selezione di talenti qualificati in ambito tech, art, marketing e corporate"
   ];
 
   return (
