@@ -1,5 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
-import { Briefcase, GraduationCap } from "lucide-react";
+import { Briefcase, GraduationCap, Building2 } from "lucide-react";
 
 const services = [
   {
@@ -13,6 +13,12 @@ const services = [
     title: "Orientamento per Studenti",
     description: "Per studenti che cercano la loro direzione: dall'università in Italia o all'estero, alle prime scelte professionali, passo dopo passo.",
     highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
+  },
+  {
+    icon: Building2,
+    title: "Servizi di Recruiting per Aziende",
+    description: "Supporto alle aziende nella ricerca e selezione di talenti qualificati, con esperienza nel settore tech, gaming, art e corporate.",
+    highlights: ["Talent Acquisition", "Screening Candidati", "Recruitment Strategico", "Employer Branding"]
   }
 ];
 
@@ -31,7 +37,7 @@ const Services = () => {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-12 max-w-5xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-7xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
