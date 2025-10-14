@@ -15,10 +15,10 @@ const Hero = () => {
         style={{
           backgroundImage: `url(${heroCompass})`,
           backgroundSize: 'cover',
-          backgroundPosition: 'center',
+          backgroundPosition: 'center center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/85 to-background/70" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/90 via-background/75 to-background/60 md:from-background/95 md:via-background/85 md:to-background/70" />
       </div>
 
       {/* Content */}
