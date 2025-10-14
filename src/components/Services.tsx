@@ -12,7 +12,7 @@ const services = [
     icon: GraduationCap,
     title: "Orientamento per Studenti",
     description: "Per studenti che cercano la loro direzione: dall'università in Italia o all'estero, alle prime scelte professionali, passo dopo passo.",
-    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Competenze Trasversali"]
+    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
   }
 ];
 

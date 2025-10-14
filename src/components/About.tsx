@@ -4,10 +4,9 @@ import logo from "@/assets/logo.png";
 
 const About = () => {
   const credentials = [
-    "Recruiter e career advisor con anni di esperienza in aziende globali e multinazionali",
-    "Specializzata nel recruiting nel mondo big tech e videogames",
-    "Esperta del mondo universitario italiano e estero",
-    "Approccio personalizzato e orientato ai risultati"
+    "Recruiter e career coach con esperienza in aziende globali e multinazionali",
+    "Percorso trasversale tra education, big tech e videogames, in ruoli da sales a talent acquisition",
+    "Aiuto i professionisti a fare chiarezza e costruire un piano, e gli studenti a districarsi nella giungla dei percorsi universitari in Italia e all'estero"
   ];
 
   return (
