@@ -8,10 +8,10 @@ const Contact = () => {
         <div className="mb-20">
           <div className="border-l-4 border-primary pl-6 mb-8 relative">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-gaming uppercase text-foreground">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-3 sm:mb-4 tracking-tight font-gaming uppercase text-foreground">
               Contattami
             </h2>
-            <p className="text-xl font-tech font-medium text-muted-foreground max-w-2xl">
+            <p className="text-base sm:text-lg md:text-xl font-tech font-medium text-muted-foreground max-w-2xl">
               Pronto per fare il prossimo passo? Discutiamo i tuoi obiettivi.
             </p>
           </div>
@@ -33,7 +33,7 @@ const Contact = () => {
               </CardDescription>
             </CardHeader>
             <CardContent className="p-0">
-              <div className="w-full h-[700px]">
+              <div className="w-full h-[500px] sm:h-[600px] lg:h-[700px]">
                 <iframe
                   src="https://calendly.com/cristina-salac86"
                   width="100%"

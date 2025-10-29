@@ -1,8 +1,19 @@
 import logo from "@/assets/logo.png";
+import { Menu, X } from "lucide-react";
+import { useState } from "react";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+  
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
+    setOpen(false);
+  };
+
+  const scrollToSection = (id: string) => {
+    document.getElementById(id)?.scrollIntoView({ behavior: 'smooth' });
+    setOpen(false);
   };
 
   return (
@@ -21,7 +32,7 @@ const Header = () => {
               href="#services" 
               onClick={(e) => {
                 e.preventDefault();
-                document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
+                scrollToSection('services');
               }}
               className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
@@ -37,7 +48,7 @@ const Header = () => {
               href="#about"
               onClick={(e) => {
                 e.preventDefault();
-                document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
+                scrollToSection('about');
               }}
               className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
@@ -47,13 +58,63 @@ const Header = () => {
               href="#contact"
               onClick={(e) => {
                 e.preventDefault();
-                document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
+                scrollToSection('contact');
               }}
               className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
               Contatti
             </a>
           </nav>
+
+          {/* Mobile Menu */}
+          <Sheet open={open} onOpenChange={setOpen}>
+            <SheetTrigger asChild className="md:hidden">
+              <button className="p-2 text-foreground hover:text-primary transition-colors">
+                <Menu className="h-6 w-6" />
+              </button>
+            </SheetTrigger>
+            <SheetContent side="right" className="w-[80vw] sm:w-[350px] bg-background border-l-2 border-primary/30">
+              <nav className="flex flex-col gap-6 mt-8">
+                <a 
+                  href="#services" 
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('services');
+                  }}
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                >
+                  Servizi
+                </a>
+                <a 
+                  href="/inventario"
+                  onClick={() => setOpen(false)}
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                >
+                  Inventario
+                </a>
+                <a 
+                  href="#about"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('about');
+                  }}
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                >
+                  Chi Sono
+                </a>
+                <a 
+                  href="#contact"
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('contact');
+                  }}
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                >
+                  Contatti
+                </a>
+              </nav>
+            </SheetContent>
+          </Sheet>
         </div>
       </div>
     </header>

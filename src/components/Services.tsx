@@ -32,10 +32,10 @@ const Services = () => {
         <div className="mb-20">
           <div className="border-l-4 border-primary pl-6 mb-8 relative">
             <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
+            <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 sm:mb-6 tracking-tight font-gaming uppercase text-foreground">
               Servizi Professionali
             </h2>
-            <p className="text-xl font-tech font-medium text-muted-foreground max-w-2xl">
+            <p className="text-base sm:text-lg md:text-xl font-tech font-medium text-muted-foreground max-w-2xl">
               Percorsi su misura per ritrovare la tua rotta — che tu sia all'inizio del viaggio o pronto a cambiare direzione.
             </p>
           </div>
@@ -51,13 +51,13 @@ const Services = () => {
               >
                 <div className="absolute top-0 left-0 w-full h-1 bg-secondary/60"></div>
                 <CardHeader className="pb-4">
-                  <div className="flex items-start gap-4 mb-4">
-                    <div className="w-20 h-20 rounded-lg bg-secondary/10 border-2 border-secondary/50 flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-cyan transition-smooth">
-                      <Icon className="h-10 w-10 text-secondary" strokeWidth={2.5} />
+                  <div className="flex items-start gap-3 sm:gap-4 mb-4">
+                    <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-lg bg-secondary/10 border-2 border-secondary/50 flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-cyan transition-smooth">
+                      <Icon className="h-7 w-7 sm:h-10 sm:w-10 text-secondary" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-2xl font-extrabold mb-2 font-gaming uppercase text-foreground">{service.title}</CardTitle>
-                      <p className="text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
+                      <CardTitle className="text-lg sm:text-xl md:text-2xl font-extrabold mb-1 sm:mb-2 font-gaming uppercase text-foreground">{service.title}</CardTitle>
+                      <p className="text-xs sm:text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
                     </div>
                   </div>
                   <CardDescription className="text-base font-tech font-normal leading-relaxed">

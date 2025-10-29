@@ -29,26 +29,26 @@ const Hero = () => {
               Career Compass — La bussola per la tua carriera
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-secondary tracking-tight font-gaming uppercase">
+          <h1 className="text-3xl sm:text-5xl md:text-7xl lg:text-8xl font-extrabold mb-6 md:mb-8 leading-[1.1] text-secondary tracking-tight font-gaming uppercase">
             Career Compass
           </h1>
-          <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-tech font-semibold leading-relaxed">
+          <h2 className="text-lg sm:text-2xl md:text-4xl text-foreground mb-8 md:mb-10 max-w-3xl font-tech font-semibold leading-relaxed">
             Ti aiuto a (ri)trovare la tua direzione professionale
           </h2>
-          <div className="flex flex-col sm:flex-row gap-6">
+          <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
             <Button 
               variant="default" 
               size="lg"
               onClick={scrollToContact}
-              className="text-base font-gaming px-10 py-6 h-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary shadow-neon-cyan"
+              className="text-sm sm:text-base font-gaming px-6 py-4 sm:px-10 sm:py-6 h-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary shadow-neon-cyan"
             >
-              Inizia Ora <ArrowRight className="ml-2 h-6 w-6" />
+              Inizia Ora <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
             </Button>
             <Button 
               variant="outline" 
               size="lg"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-base font-gaming px-10 py-6 h-auto border-2 border-secondary text-secondary hover:bg-secondary/10"
+              className="text-sm sm:text-base font-gaming px-6 py-4 sm:px-10 sm:py-6 h-auto border-2 border-secondary text-secondary hover:bg-secondary/10"
             >
               Scopri i Servizi
             </Button>
