@@ -5,19 +5,19 @@ const services = [
   {
     icon: Briefcase,
     title: "Orientamento Professionale",
-    description: "Guida per chi vuole cambiare direzione nella propria carriera: crescita, transizione o ridefinizione professionale.",
+    description: "Guida per professionisti nel gaming, big tech e creative industries che vogliono crescere, fare una transizione o ridefinire la propria carriera.",
     highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
   },
   {
     icon: GraduationCap,
     title: "Orientamento per Studenti",
-    description: "Per studenti che cercano la loro direzione: dall'università in Italia o all'estero, alle prime scelte professionali, passo dopo passo.",
+    description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries: dall'università in Italia o all'estero, alle prime scelte professionali.",
     highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
   },
   {
     icon: Building2,
     title: "Servizi di Recruiting per Aziende",
-    description: "Supporto alle aziende nella ricerca e selezione di talenti qualificati, con esperienza nel settore tech, gaming, art e corporate.",
+    description: "Supporto specializzato per aziende nel gaming, big tech e creative industries nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e corporate.",
     highlights: ["Talent Acquisition", "Screening Candidati", "Recruitment Strategico", "Employer Branding"]
   }
 ];

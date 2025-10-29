@@ -4,10 +4,10 @@ import logo from "@/assets/logo.png";
 
 const About = () => {
   const credentials = [
-    "Recruiter e career coach con esperienza in aziende globali e multinazionali",
-    "Percorso trasversale tra education, big tech e videogames, in ruoli da sales a talent acquisition",
-    "Aiuto professionisti a fare chiarezza e costruire un percorso di sviluppo, e studenti a orientarsi tra i diversi percorsi universitari in Italia e all'estero",
-    "Supporto le aziende nella ricerca e selezione di talenti qualificati in ambito tech, art, marketing e corporate"
+    "Recruiter e career coach con esperienza in aziende globali come Amazon e Keywords Studios",
+    "Specializzata in gaming, big tech e creative industries — con focus su artisti, sviluppatori, professionisti tech e creative",
+    "Aiuto professionisti del settore a fare chiarezza e costruire strategie di crescita, e studenti a orientarsi verso carriere nel gaming, tech e industrie creative",
+    "Supporto le aziende nel gaming e tech nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e operations"
   ];
 
   return (

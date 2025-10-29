@@ -33,7 +33,7 @@ const Hero = () => {
             La bussola per orientarti nel lavoro e nello studio.
           </h1>
           <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-body font-medium leading-relaxed">
-            Ti aiuto a (ri)trovare la tua direzione professionale.
+            Specializzata in gaming, big tech e creative industries — ti aiuto a (ri)trovare la tua direzione professionale.
           </h2>
           <div className="flex flex-col sm:flex-row gap-6">
             <Button 
