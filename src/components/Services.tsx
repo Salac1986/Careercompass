@@ -27,7 +27,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="cv-section" style={{ background: 'linear-gradient(to bottom, hsl(220 35% 5%), hsl(220 30% 8%))' }}>
+    <section id="services" className="cv-section bg-muted/30">
       <div className="container px-4 md:px-6">
         <div className="mb-20">
           <div className="border-l-4 border-accent pl-6 mb-8 relative">

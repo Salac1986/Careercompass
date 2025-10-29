@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="cv-section" style={{ background: 'linear-gradient(to bottom, hsl(220 30% 8%), hsl(220 35% 5%))' }}>
+    <section id="about" className="cv-section bg-background">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
