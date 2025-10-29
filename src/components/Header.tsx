@@ -17,7 +17,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b-2 border-primary/30 shadow-neon">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b-2 border-accent/30 shadow-neon">
       <div className="container px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           <button 
@@ -73,7 +73,7 @@ const Header = () => {
                 <Menu className="h-6 w-6" />
               </button>
             </SheetTrigger>
-            <SheetContent side="right" className="w-[80vw] sm:w-[350px] bg-background border-l-2 border-primary/30">
+            <SheetContent side="right" className="w-[80vw] sm:w-[350px] bg-background border-l-2 border-accent/30">
               <nav className="flex flex-col gap-6 mt-8">
                 <a 
                   href="#services" 
@@ -81,14 +81,14 @@ const Header = () => {
                     e.preventDefault();
                     scrollToSection('services');
                   }}
-                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
                 >
                   Servizi
                 </a>
                 <a 
                   href="/inventario"
                   onClick={() => setOpen(false)}
-                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
                 >
                   Inventario
                 </a>
@@ -98,7 +98,7 @@ const Header = () => {
                     e.preventDefault();
                     scrollToSection('about');
                   }}
-                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
                 >
                   Chi Sono
                 </a>
@@ -108,7 +108,7 @@ const Header = () => {
                     e.preventDefault();
                     scrollToSection('contact');
                   }}
-                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-primary/20 pb-3"
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
                 >
                   Contatti
                 </a>

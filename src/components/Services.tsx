@@ -30,8 +30,8 @@ const Services = () => {
     <section id="services" className="cv-section bg-primary/10">
       <div className="container px-4 md:px-6">
         <div className="mb-20">
-          <div className="border-l-4 border-primary pl-6 mb-8 relative">
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
+          <div className="border-l-4 border-accent pl-6 mb-8 relative">
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-accent shadow-neon"></div>
             <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 sm:mb-6 tracking-tight font-gaming uppercase text-foreground">
               Servizi Professionali
             </h2>
@@ -47,7 +47,7 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="shadow-soft hover:shadow-neon-cyan transition-smooth hover:-translate-y-2 border-2 border-primary/20 hover:border-secondary/60 bg-card/95 backdrop-blur-sm overflow-hidden relative group"
+                className="shadow-soft hover:shadow-neon-cyan transition-smooth hover:-translate-y-2 border-2 border-accent/20 hover:border-secondary/60 bg-card/95 backdrop-blur-sm overflow-hidden relative group"
               >
                 <div className="absolute top-0 left-0 w-full h-1 bg-secondary/60"></div>
                 <CardHeader className="pb-4">

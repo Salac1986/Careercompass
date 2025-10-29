@@ -17,20 +17,20 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 12%;
 
-    /* Cyan - Compass primary */
+    /* Cyan - Primary buttons */
     --primary: 185 85% 55%;
-    --primary-foreground: 220 30% 10%;
+    --primary-foreground: 0 0% 100%;
     --primary-glow: 185 90% 65%;
 
-    /* Gold - Compass accent */
-    --secondary: 40 75% 55%;
-    --secondary-foreground: 220 30% 10%;
+    /* Dark gray - Secondary */
+    --secondary: 220 25% 20%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 220 15% 92%;
     --muted-foreground: 220 10% 45%;
 
-    /* Bronze - Compass secondary accent */
-    --accent: 35 60% 45%;
+    /* Electric Purple - Tech accent for borders */
+    --accent: 280 100% 70%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 84% 60%;
@@ -42,10 +42,10 @@ All colors MUST be HSL.
 
     --radius: 0.5rem;
     
-    /* Compass design tokens - cyan/gold */
+    /* Compass design tokens - cyan/purple */
     --gradient-hero: linear-gradient(135deg, hsl(200 40% 15%), hsl(210 50% 8%));
-    --gradient-accent: linear-gradient(135deg, hsl(185 85% 55%), hsl(40 75% 55%));
-    --gradient-neon: linear-gradient(135deg, hsl(185 85% 55%), hsl(185 90% 65%), hsl(190 85% 60%));
+    --gradient-accent: linear-gradient(135deg, hsl(185 85% 55%), hsl(280 100% 70%));
+    --gradient-neon: linear-gradient(135deg, hsl(185 85% 55%), hsl(185 90% 65%), hsl(280 100% 70%));
     --shadow-soft: 0 4px 20px -2px hsl(185 85% 55% / 0.4);
     --shadow-medium: 0 8px 30px -4px hsl(185 85% 55% / 0.5);
     --shadow-neon: 0 0 20px hsl(185 85% 55% / 0.6), 0 0 40px hsl(185 85% 55% / 0.4), 0 0 60px hsl(185 85% 55% / 0.2);
@@ -74,18 +74,18 @@ All colors MUST be HSL.
 
     /* Cyan - dark mode */
     --primary: 185 85% 60%;
-    --primary-foreground: 220 30% 10%;
+    --primary-foreground: 0 0% 100%;
     --primary-glow: 185 90% 70%;
 
-    /* Gold - dark mode */
-    --secondary: 40 80% 60%;
-    --secondary-foreground: 220 30% 10%;
+    /* Dark gray - dark mode */
+    --secondary: 220 25% 25%;
+    --secondary-foreground: 0 0% 100%;
 
     --muted: 220 20% 18%;
     --muted-foreground: 220 10% 65%;
 
-    /* Bronze - dark mode */
-    --accent: 35 65% 50%;
+    /* Electric Purple - dark mode */
+    --accent: 280 100% 75%;
     --accent-foreground: 0 0% 100%;
 
     --destructive: 0 63% 50%;
@@ -96,8 +96,8 @@ All colors MUST be HSL.
     --ring: 210 100% 60%;
     
     --gradient-hero: linear-gradient(135deg, hsl(200 40% 12%), hsl(210 50% 5%));
-    --gradient-accent: linear-gradient(135deg, hsl(185 85% 60%), hsl(40 80% 60%));
-    --gradient-neon: linear-gradient(135deg, hsl(185 85% 60%), hsl(185 90% 70%), hsl(190 85% 65%));
+    --gradient-accent: linear-gradient(135deg, hsl(185 85% 60%), hsl(280 100% 75%));
+    --gradient-neon: linear-gradient(135deg, hsl(185 85% 60%), hsl(185 90% 70%), hsl(280 100% 75%));
     --shadow-soft: 0 4px 20px -2px hsl(185 85% 60% / 0.5);
     --shadow-medium: 0 8px 30px -4px hsl(185 85% 60% / 0.6);
     --shadow-neon: 0 0 20px hsl(185 85% 60% / 0.7), 0 0 40px hsl(185 85% 60% / 0.5), 0 0 60px hsl(185 85% 60% / 0.3);
@@ -223,22 +223,22 @@ All colors MUST be HSL.
     animation: neon-pulse 2s ease-in-out infinite;
   }
   
-  /* Cyan/Gold glitch effect */
+  /* Cyan/Purple glitch effect */
   @keyframes glitch {
     0% {
-      text-shadow: 3px 3px hsl(185 85% 55%), -3px -3px hsl(40 75% 55%);
+      text-shadow: 3px 3px hsl(185 85% 55%), -3px -3px hsl(280 100% 70%);
     }
     25% {
-      text-shadow: -3px 3px hsl(185 85% 55%), 3px -3px hsl(40 75% 55%);
+      text-shadow: -3px 3px hsl(185 85% 55%), 3px -3px hsl(280 100% 70%);
     }
     50% {
-      text-shadow: 3px -3px hsl(185 85% 55%), -3px 3px hsl(40 75% 55%);
+      text-shadow: 3px -3px hsl(185 85% 55%), -3px 3px hsl(280 100% 70%);
     }
     75% {
-      text-shadow: -3px -3px hsl(185 85% 55%), 3px 3px hsl(40 75% 55%);
+      text-shadow: -3px -3px hsl(185 85% 55%), 3px 3px hsl(280 100% 70%);
     }
     100% {
-      text-shadow: 3px 3px hsl(185 85% 55%), -3px -3px hsl(40 75% 55%);
+      text-shadow: 3px 3px hsl(185 85% 55%), -3px -3px hsl(280 100% 70%);
     }
   }
   
