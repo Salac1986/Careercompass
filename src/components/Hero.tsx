@@ -29,7 +29,7 @@ const Hero = () => {
               Career Compass — La bussola per la tua carriera
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-gaming uppercase">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-secondary tracking-tight font-gaming uppercase">
             Career Compass
           </h1>
           <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-tech font-semibold leading-relaxed">
@@ -40,7 +40,7 @@ const Hero = () => {
               variant="default" 
               size="lg"
               onClick={scrollToContact}
-              className="text-base font-gaming px-10 py-6 h-auto bg-primary hover:bg-primary/90 text-primary-foreground border-2 border-primary shadow-neon"
+              className="text-base font-gaming px-10 py-6 h-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary shadow-neon-cyan"
             >
               Inizia Ora <ArrowRight className="ml-2 h-6 w-6" />
             </Button>
@@ -48,7 +48,7 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-base font-gaming px-10 py-6 h-auto border-2 border-primary text-primary hover:bg-primary/10"
+              className="text-base font-gaming px-10 py-6 h-auto border-2 border-secondary text-secondary hover:bg-secondary/10"
             >
               Scopri i Servizi
             </Button>

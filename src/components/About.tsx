@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="cv-section bg-background">
+    <section id="about" className="cv-section bg-primary/10">
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
