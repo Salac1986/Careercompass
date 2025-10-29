@@ -3,18 +3,18 @@ import { Briefcase, GraduationCap, Building2 } from "lucide-react";
 
 const services = [
   {
-    icon: Briefcase,
-    title: "Level Up Your Career",
-    subtitle: "Orientamento Professionale",
-    description: "Guida per professionisti nel gaming, big tech e creative industries che vogliono crescere, fare una transizione o ridefinire la propria carriera.",
-    highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
-  },
-  {
     icon: GraduationCap,
     title: "First Quest",
     subtitle: "Orientamento per Studenti",
     description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries: dall'università in Italia o all'estero, alle prime scelte professionali.",
     highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
+  },
+  {
+    icon: Briefcase,
+    title: "The Map to Your Next Mission",
+    subtitle: "Orientamento Professionale",
+    description: "Guida per professionisti nel gaming, big tech e creative industries che vogliono crescere, fare una transizione o ridefinire la propria carriera.",
+    highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
   },
   {
     icon: Building2,

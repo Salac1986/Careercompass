@@ -30,10 +30,10 @@ const Hero = () => {
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-gaming uppercase">
-            The Map to Your Next Mission
+            Career Compass
           </h1>
           <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-tech font-semibold leading-relaxed">
-            Specializzata in gaming, big tech e creative industries — ti aiuto a (ri)trovare la tua direzione professionale.
+            Ti aiuto a (ri)trovare la tua direzione professionale
           </h2>
           <div className="flex flex-col sm:flex-row gap-6">
             <Button 
