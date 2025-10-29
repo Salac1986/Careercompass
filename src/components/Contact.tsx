@@ -6,8 +6,8 @@ const Contact = () => {
     <section id="contact" className="cv-section bg-accent/30">
       <div className="container px-4 md:px-6">
         <div className="mb-20">
-          <div className="border-l-4 border-secondary pl-6 mb-8 relative">
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-secondary shadow-neon-blue"></div>
+          <div className="border-l-4 border-primary pl-6 mb-8 relative">
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
             <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-gaming uppercase text-foreground">
               Contattami
             </h2>
@@ -19,12 +19,12 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Calendly Booking */}
-          <Card className="lg:col-span-2 shadow-neon-blue border-2 border-secondary/30 bg-card/95 backdrop-blur-sm lg:order-2 overflow-hidden relative">
-            <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-blue"></div>
-            <CardHeader className="border-b-2 border-secondary/20 pb-6">
+          <Card className="lg:col-span-2 shadow-neon border-2 border-primary/30 bg-card/95 backdrop-blur-sm lg:order-2 overflow-hidden relative">
+            <div className="absolute top-0 left-0 w-full h-1 bg-primary shadow-neon"></div>
+            <CardHeader className="border-b-2 border-primary/20 pb-6">
               <div className="flex items-center gap-4 mb-2">
-                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center shadow-neon-blue">
-                  <Calendar className="h-7 w-7 text-secondary" strokeWidth={2.5} />
+                <div className="w-14 h-14 rounded-lg bg-primary/10 border-2 border-primary flex items-center justify-center shadow-neon">
+                  <Calendar className="h-7 w-7 text-primary" strokeWidth={2.5} />
                 </div>
                 <CardTitle className="text-3xl font-extrabold font-gaming uppercase">Prenota una Consulenza Gratuita</CardTitle>
               </div>
@@ -47,10 +47,10 @@ const Contact = () => {
 
           {/* Contact Info Cards */}
           <div className="space-y-6 lg:order-1">
-            <Card className="shadow-neon border-2 border-secondary/30 bg-card/95 backdrop-blur-sm hover:shadow-neon-blue transition-smooth overflow-hidden relative group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-blue"></div>
+            <Card className="shadow-neon border-2 border-secondary/30 bg-card/95 backdrop-blur-sm hover:shadow-neon-cyan transition-smooth overflow-hidden relative group">
+              <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-cyan"></div>
               <CardHeader>
-                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-blue group-hover:shadow-neon-blue transition-smooth">
+                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-cyan group-hover:shadow-neon-cyan transition-smooth">
                   <Mail className="h-7 w-7 text-secondary" strokeWidth={2.5} />
                 </div>
                 <CardTitle className="text-xl font-extrabold font-gaming uppercase">Email</CardTitle>
@@ -60,10 +60,10 @@ const Contact = () => {
               </CardHeader>
             </Card>
 
-            <Card className="shadow-neon border-2 border-secondary/30 bg-card/95 backdrop-blur-sm hover:shadow-neon-blue transition-smooth overflow-hidden relative group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-blue"></div>
+            <Card className="shadow-neon border-2 border-secondary/30 bg-card/95 backdrop-blur-sm hover:shadow-neon-cyan transition-smooth overflow-hidden relative group">
+              <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-cyan"></div>
               <CardHeader>
-                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-blue group-hover:shadow-neon-blue transition-smooth">
+                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-cyan group-hover:shadow-neon-cyan transition-smooth">
                   <MapPin className="h-7 w-7 text-secondary" strokeWidth={2.5} />
                 </div>
                 <CardTitle className="text-xl font-extrabold font-gaming uppercase">Sede</CardTitle>

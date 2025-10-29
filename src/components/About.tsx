@@ -17,8 +17,8 @@ const About = () => {
           
           {/* Content Side */}
           <div>
-            <div className="border-l-4 border-secondary pl-6 mb-8 relative">
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-secondary shadow-neon-blue"></div>
+            <div className="border-l-4 border-primary pl-6 mb-8 relative">
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
               <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
                 Chi Sono
               </h2>
@@ -53,8 +53,8 @@ const About = () => {
 
             <div className="space-y-4 mt-8">
               {credentials.map((credential, index) => (
-                <div key={index} className="flex items-start gap-4 p-4 bg-secondary/5 rounded-lg border-l-4 border-secondary shadow-soft hover:shadow-neon-blue transition-smooth hover:bg-secondary/10">
-                  <CheckCircle2 className="h-6 w-6 text-secondary flex-shrink-0 mt-1" strokeWidth={3} />
+                <div key={index} className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg border-l-4 border-primary shadow-soft hover:shadow-neon transition-smooth hover:bg-primary/10">
+                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" strokeWidth={3} />
                   <span className="text-foreground font-tech font-semibold text-base">{credential}</span>
                 </div>
               ))}
@@ -71,7 +71,7 @@ const About = () => {
             </div>
             
             <div className="space-y-6">
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-secondary shadow-neon-blue hover:shadow-neon-blue transition-smooth">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-primary shadow-neon hover:shadow-neon transition-smooth">
                 <p className="text-foreground font-tech italic mb-4">
                   "Grazie al bilancio delle competenze con Cristina e alla revisione completa del mio CV, sono riuscita a capire meglio i miei punti di forza e a presentarli in modo chiaro. Dopo anni di immobilismo nel mio vecchio lavoro, sono riuscita a dare una direzione alle mie esperienze e a trovare lavoro in una multinazionale con ampie possibilità di crescita interne"
                 </p>
@@ -85,7 +85,7 @@ const About = () => {
                 <p className="text-secondary font-semibold font-gaming">— Francesco</p>
               </Card>
 
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-secondary shadow-neon-blue hover:shadow-neon-blue transition-smooth">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-primary shadow-neon hover:shadow-neon transition-smooth">
                 <p className="text-foreground font-tech italic mb-4">
                   "Dopo un lungo periodo di disoccupazione e tanta incertezza sulla mia carriera, mi sono rivolta a Cristina. Il percorso con lei è stato fondamentale: mi ha aiutata a fare chiarezza sui miei punti di forza, a costruire un piano concreto e a prepararmi passo passo. Grazie ai suoi consigli mirati, sono riuscita a superare con successo tutti i colloqui e a entrare in Amazon, ottenendo il lavoro dei miei sogni. Non ce l'avrei mai fatta da sola!"
                 </p>

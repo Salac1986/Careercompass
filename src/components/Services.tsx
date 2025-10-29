@@ -30,8 +30,8 @@ const Services = () => {
     <section id="services" className="cv-section bg-accent/30">
       <div className="container px-4 md:px-6">
         <div className="mb-20">
-          <div className="border-l-4 border-secondary pl-6 mb-8 relative">
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-secondary shadow-neon-blue"></div>
+          <div className="border-l-4 border-primary pl-6 mb-8 relative">
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
             <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
               Servizi Professionali
             </h2>
@@ -47,12 +47,12 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="shadow-soft hover:shadow-neon-blue transition-smooth hover:-translate-y-2 border-2 border-primary/20 hover:border-secondary/60 bg-card/95 backdrop-blur-sm overflow-hidden relative group"
+                className="shadow-soft hover:shadow-neon-cyan transition-smooth hover:-translate-y-2 border-2 border-primary/20 hover:border-secondary/60 bg-card/95 backdrop-blur-sm overflow-hidden relative group"
               >
                 <div className="absolute top-0 left-0 w-full h-1 bg-secondary/60"></div>
                 <CardHeader className="pb-4">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-20 h-20 rounded-lg bg-secondary/10 border-2 border-secondary/50 flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-blue transition-smooth">
+                    <div className="w-20 h-20 rounded-lg bg-secondary/10 border-2 border-secondary/50 flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-cyan transition-smooth">
                       <Icon className="h-10 w-10 text-secondary" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
