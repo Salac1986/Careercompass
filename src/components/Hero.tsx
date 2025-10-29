@@ -25,7 +25,7 @@ const Hero = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-4xl">
           <div className="mb-6 inline-block">
-            <span className="px-6 py-2 bg-primary/10 border-2 border-primary text-primary font-gaming font-bold text-sm uppercase tracking-wider rounded-lg shadow-neon backdrop-blur-sm">
+            <span className="px-6 py-2 bg-primary/10 border-2 border-primary text-primary font-gaming font-bold text-sm uppercase tracking-wider rounded-lg shadow-soft backdrop-blur-sm">
               Career Compass — La bussola per la tua carriera
             </span>
           </div>
@@ -37,10 +37,10 @@ const Hero = () => {
           </h2>
           <div className="flex flex-col sm:flex-row gap-6">
             <Button 
-              variant="hero" 
+              variant="default" 
               size="lg"
               onClick={scrollToContact}
-              className="text-base font-gaming px-10 py-6 h-auto"
+              className="text-base font-gaming px-10 py-6 h-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary shadow-neon-blue"
             >
               Inizia Ora <ArrowRight className="ml-2 h-6 w-6" />
             </Button>
@@ -48,7 +48,7 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-base font-gaming px-10 py-6 h-auto"
+              className="text-base font-gaming px-10 py-6 h-auto border-2 border-secondary text-secondary hover:bg-secondary/10"
             >
               Scopri i Servizi
             </Button>
