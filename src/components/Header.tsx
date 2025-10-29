@@ -6,7 +6,7 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b-2 border-secondary/30 shadow-neon-blue">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-background/95 backdrop-blur-md border-b-2 border-primary/30 shadow-neon">
       <div className="container px-4 md:px-6 py-4">
         <div className="flex items-center justify-between">
           <button 
@@ -23,13 +23,13 @@ const Header = () => {
                 e.preventDefault();
                 document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="text-foreground hover:text-secondary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
               Servizi
             </a>
             <a 
               href="/inventario"
-              className="text-foreground hover:text-secondary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
               Inventario
             </a>
@@ -39,7 +39,7 @@ const Header = () => {
                 e.preventDefault();
                 document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="text-foreground hover:text-secondary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
               Chi Sono
             </a>
@@ -49,7 +49,7 @@ const Header = () => {
                 e.preventDefault();
                 document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
               }}
-              className="text-foreground hover:text-secondary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
               Contatti
             </a>

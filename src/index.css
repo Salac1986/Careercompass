@@ -17,49 +17,49 @@ All colors MUST be HSL.
     --popover: 0 0% 100%;
     --popover-foreground: 220 20% 12%;
 
-    /* Cyber Magenta - Gaming primary color */
-    --primary: 320 100% 60%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 320 100% 70%;
+    /* Neon Cyan - Gaming primary color */
+    --primary: 190 100% 50%;
+    --primary-foreground: 220 30% 10%;
+    --primary-glow: 190 100% 60%;
 
-    /* Neon Blue - Gaming secondary color */
-    --secondary: 200 100% 55%;
+    /* Electric Purple - Gaming secondary color */
+    --secondary: 270 100% 65%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 220 15% 92%;
     --muted-foreground: 220 10% 45%;
 
-    /* Electric Purple accent */
-    --accent: 280 85% 65%;
-    --accent-foreground: 0 0% 100%;
+    /* Soft Pink accent */
+    --accent: 330 80% 70%;
+    --accent-foreground: 220 30% 10%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 220 20% 88%;
     --input: 220 20% 95%;
-    --ring: 320 100% 60%;
+    --ring: 190 100% 50%;
 
     --radius: 0.5rem;
     
     /* Gaming design tokens - neon effects and glows */
-    --gradient-hero: linear-gradient(135deg, hsl(200 100% 95%), hsl(320 100% 98%));
-    --gradient-accent: linear-gradient(135deg, hsl(320 100% 60%), hsl(200 100% 55%));
-    --gradient-neon: linear-gradient(135deg, hsl(320 100% 60%), hsl(280 85% 65%), hsl(200 100% 55%));
-    --shadow-soft: 0 4px 20px -2px hsl(320 100% 60% / 0.2);
-    --shadow-medium: 0 8px 30px -4px hsl(320 100% 60% / 0.3);
-    --shadow-neon: 0 0 20px hsl(320 100% 60% / 0.5), 0 0 40px hsl(320 100% 60% / 0.3);
-    --shadow-neon-blue: 0 0 20px hsl(200 100% 55% / 0.5), 0 0 40px hsl(200 100% 55% / 0.3);
+    --gradient-hero: linear-gradient(135deg, hsl(190 100% 95%), hsl(270 100% 95%));
+    --gradient-accent: linear-gradient(135deg, hsl(190 100% 50%), hsl(270 100% 65%));
+    --gradient-neon: linear-gradient(135deg, hsl(190 100% 50%), hsl(270 100% 65%), hsl(330 80% 70%));
+    --shadow-soft: 0 4px 20px -2px hsl(190 100% 50% / 0.2);
+    --shadow-medium: 0 8px 30px -4px hsl(190 100% 50% / 0.3);
+    --shadow-neon: 0 0 20px hsl(190 100% 50% / 0.5), 0 0 40px hsl(190 100% 50% / 0.3);
+    --shadow-neon-purple: 0 0 20px hsl(270 100% 65% / 0.5), 0 0 40px hsl(270 100% 65% / 0.3);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 
     --sidebar-background: 220 25% 98%;
     --sidebar-foreground: 220 20% 12%;
-    --sidebar-primary: 320 100% 60%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 280 85% 65%;
+    --sidebar-primary: 190 100% 50%;
+    --sidebar-primary-foreground: 220 30% 10%;
+    --sidebar-accent: 270 100% 65%;
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 220 20% 88%;
-    --sidebar-ring: 320 100% 60%;
+    --sidebar-ring: 190 100% 50%;
   }
 
   .dark {
@@ -72,45 +72,45 @@ All colors MUST be HSL.
     --popover: 220 25% 12%;
     --popover-foreground: 220 10% 98%;
 
-    /* Cyber Magenta - dark mode */
-    --primary: 320 100% 65%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 320 100% 75%;
+    /* Neon Cyan - dark mode */
+    --primary: 190 100% 55%;
+    --primary-foreground: 220 30% 10%;
+    --primary-glow: 190 100% 65%;
 
-    /* Neon Blue - dark mode */
-    --secondary: 200 100% 60%;
+    /* Electric Purple - dark mode */
+    --secondary: 270 100% 70%;
     --secondary-foreground: 0 0% 100%;
 
     --muted: 220 20% 18%;
     --muted-foreground: 220 10% 65%;
 
-    /* Electric Purple - dark mode */
-    --accent: 280 85% 70%;
-    --accent-foreground: 0 0% 100%;
+    /* Soft Pink - dark mode */
+    --accent: 330 80% 75%;
+    --accent-foreground: 220 30% 10%;
 
     --destructive: 0 63% 50%;
     --destructive-foreground: 0 0% 98%;
 
     --border: 220 20% 22%;
     --input: 220 20% 18%;
-    --ring: 320 100% 65%;
+    --ring: 190 100% 55%;
     
     --gradient-hero: linear-gradient(135deg, hsl(220 25% 12%), hsl(220 30% 8%));
-    --gradient-accent: linear-gradient(135deg, hsl(320 100% 65%), hsl(200 100% 60%));
-    --gradient-neon: linear-gradient(135deg, hsl(320 100% 65%), hsl(280 85% 70%), hsl(200 100% 60%));
-    --shadow-soft: 0 4px 20px -2px hsl(320 100% 65% / 0.4);
-    --shadow-medium: 0 8px 30px -4px hsl(320 100% 65% / 0.5);
-    --shadow-neon: 0 0 20px hsl(320 100% 65% / 0.6), 0 0 40px hsl(320 100% 65% / 0.4);
-    --shadow-neon-blue: 0 0 20px hsl(200 100% 60% / 0.6), 0 0 40px hsl(200 100% 60% / 0.4);
+    --gradient-accent: linear-gradient(135deg, hsl(190 100% 55%), hsl(270 100% 70%));
+    --gradient-neon: linear-gradient(135deg, hsl(190 100% 55%), hsl(270 100% 70%), hsl(330 80% 75%));
+    --shadow-soft: 0 4px 20px -2px hsl(190 100% 55% / 0.4);
+    --shadow-medium: 0 8px 30px -4px hsl(190 100% 55% / 0.5);
+    --shadow-neon: 0 0 20px hsl(190 100% 55% / 0.6), 0 0 40px hsl(190 100% 55% / 0.4);
+    --shadow-neon-purple: 0 0 20px hsl(270 100% 70% / 0.6), 0 0 40px hsl(270 100% 70% / 0.4);
     
     --sidebar-background: 220 25% 10%;
     --sidebar-foreground: 220 10% 95%;
-    --sidebar-primary: 320 100% 65%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 280 85% 70%;
+    --sidebar-primary: 190 100% 55%;
+    --sidebar-primary-foreground: 220 30% 10%;
+    --sidebar-accent: 270 100% 70%;
     --sidebar-accent-foreground: 0 0% 100%;
     --sidebar-border: 220 20% 22%;
-    --sidebar-ring: 320 100% 65%;
+    --sidebar-ring: 190 100% 55%;
   }
 }
 
@@ -226,19 +226,23 @@ All colors MUST be HSL.
   /* Glitch effect for headings */
   @keyframes glitch {
     0% {
-      text-shadow: 2px 2px hsl(200 100% 55%), -2px -2px hsl(320 100% 60%);
+      text-shadow: 2px 2px hsl(190 100% 55%), -2px -2px hsl(270 100% 65%);
     }
     25% {
-      text-shadow: -2px 2px hsl(200 100% 55%), 2px -2px hsl(320 100% 60%);
+      text-shadow: -2px 2px hsl(190 100% 55%), 2px -2px hsl(270 100% 65%);
     }
     50% {
-      text-shadow: 2px -2px hsl(200 100% 55%), -2px 2px hsl(320 100% 60%);
+      text-shadow: 2px -2px hsl(190 100% 55%), -2px 2px hsl(270 100% 65%);
     }
     75% {
-      text-shadow: -2px -2px hsl(200 100% 55%), 2px 2px hsl(320 100% 60%);
+      text-shadow: -2px -2px hsl(190 100% 55%), 2px 2px hsl(270 100% 65%);
     }
     100% {
-      text-shadow: 2px 2px hsl(200 100% 55%), -2px -2px hsl(320 100% 60%);
+      text-shadow: 2px 2px hsl(190 100% 55%), -2px -2px hsl(270 100% 65%);
     }
+  }
+  
+  .shadow-neon-purple {
+    box-shadow: var(--shadow-neon-purple);
   }
 }
