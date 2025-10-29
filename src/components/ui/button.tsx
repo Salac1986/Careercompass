@@ -11,11 +11,11 @@ const buttonVariants = cva(
       variant: {
         default: "bg-primary text-primary-foreground hover:bg-primary/90 shadow-neon transition-smooth border-2 border-primary hover:shadow-neon",
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90 border-2 border-destructive/20",
-        outline: "border-2 border-primary/50 bg-background/50 backdrop-blur-sm text-foreground hover:bg-primary/10 hover:border-primary hover:shadow-neon",
+        outline: "border-2 border-primary bg-card/90 backdrop-blur-sm text-foreground hover:bg-primary/10 hover:border-primary hover:shadow-neon",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary/90 shadow-neon-blue transition-smooth border-2 border-secondary hover:shadow-neon-blue",
         ghost: "hover:bg-accent/20 hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
-        hero: "bg-gradient-neon text-white hover:scale-105 shadow-neon transition-smooth border-2 border-primary/50 relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700",
+        hero: "bg-primary text-primary-foreground hover:scale-105 shadow-neon transition-smooth border-2 border-primary relative overflow-hidden before:absolute before:inset-0 before:bg-gradient-to-r before:from-transparent before:via-white/20 before:to-transparent before:translate-x-[-100%] hover:before:translate-x-[100%] before:transition-transform before:duration-700",
       },
       size: {
         default: "h-11 px-5 py-2.5",
