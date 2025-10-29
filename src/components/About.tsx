@@ -11,8 +11,23 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="cv-section bg-muted/30">
-      <div className="container px-4 md:px-6">
+    <section id="about" className="cv-section bg-muted/30 relative overflow-hidden">
+      {/* Gaming-style hexagon pattern */}
+      <div className="absolute inset-0 opacity-[0.02]">
+        <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">
+          <defs>
+            <pattern id="hexagons" x="0" y="0" width="56" height="100" patternUnits="userSpaceOnUse">
+              <polygon points="28,0 56,15 56,45 28,60 0,45 0,15" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent"/>
+              <polygon points="28,60 56,75 56,105 28,120 0,105 0,75" fill="none" stroke="currentColor" strokeWidth="1" className="text-accent"/>
+            </pattern>
+          </defs>
+          <rect width="100%" height="100%" fill="url(#hexagons)" />
+        </svg>
+      </div>
+      <div className="absolute top-10 left-10 w-32 h-32 border-2 border-accent/10 rotate-45" />
+      <div className="absolute bottom-20 right-20 w-40 h-40 border-2 border-accent/10 rotate-12" />
+      
+      <div className="container px-4 md:px-6 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           {/* Content Side */}

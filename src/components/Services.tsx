@@ -27,8 +27,19 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="cv-section bg-background">
-      <div className="container px-4 md:px-6">
+    <section id="services" className="cv-section bg-background relative overflow-hidden">
+      {/* Gaming-style background pattern */}
+      <div className="absolute inset-0 opacity-[0.03]" style={{
+        backgroundImage: `
+          linear-gradient(90deg, hsl(var(--accent)) 1px, transparent 1px),
+          linear-gradient(180deg, hsl(var(--accent)) 1px, transparent 1px)
+        `,
+        backgroundSize: '40px 40px'
+      }} />
+      <div className="absolute top-20 right-20 w-64 h-64 border border-accent/10 rounded-full" />
+      <div className="absolute bottom-40 left-10 w-48 h-48 border border-accent/10 rounded-full" />
+      
+      <div className="container px-4 md:px-6 relative z-10">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <div className="inline-block mb-4">
             <span className="px-4 py-2 bg-accent/10 border border-accent/30 text-accent font-gaming font-bold text-xs uppercase tracking-wider rounded-full">
