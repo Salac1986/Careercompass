@@ -47,13 +47,13 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="shadow-medium hover:shadow-neon-blue transition-smooth hover:-translate-y-2 border-2 border-primary/30 hover:border-primary/60 bg-card/95 backdrop-blur-sm hud-border overflow-hidden relative group"
+                className="shadow-soft hover:shadow-neon-blue transition-smooth hover:-translate-y-2 border-2 border-primary/20 hover:border-secondary/60 bg-card/95 backdrop-blur-sm overflow-hidden relative group"
               >
-                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-neon"></div>
+                <div className="absolute top-0 left-0 w-full h-1 bg-secondary/60"></div>
                 <CardHeader className="pb-4">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-20 h-20 rounded-lg bg-primary/10 border-2 border-primary flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-blue transition-smooth">
-                      <Icon className="h-10 w-10 text-primary" strokeWidth={2.5} />
+                    <div className="w-20 h-20 rounded-lg bg-secondary/10 border-2 border-secondary/50 flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-blue transition-smooth">
+                      <Icon className="h-10 w-10 text-secondary" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
                       <CardTitle className="text-2xl font-extrabold mb-2 font-gaming uppercase text-foreground">{service.title}</CardTitle>
@@ -65,12 +65,12 @@ const Services = () => {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="pt-4 border-t-2 border-primary/20">
+                  <div className="pt-4 border-t-2 border-secondary/20">
                     <div className="grid grid-cols-2 gap-2">
                       {service.highlights.map((highlight, idx) => (
                         <span 
                           key={idx}
-                          className="px-3 py-2 bg-primary/10 text-primary text-xs font-gaming font-bold rounded border border-primary/30 hover:bg-primary/15 transition-smooth uppercase"
+                          className="px-3 py-2 bg-secondary/10 text-secondary text-xs font-gaming font-bold rounded border border-secondary/30 hover:bg-secondary/15 transition-smooth uppercase"
                         >
                           {highlight}
                         </span>

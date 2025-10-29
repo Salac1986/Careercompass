@@ -5,9 +5,9 @@ import logo from "@/assets/logo.png";
 const About = () => {
   const credentials = [
     "Recruiter e career coach con esperienza in aziende globali come Amazon e Keywords Studios",
-    "Specializzata in gaming, big tech e creative industries — con focus su artisti, sviluppatori, professionisti tech e creative",
-    "Aiuto professionisti del settore a fare chiarezza e costruire strategie di crescita, e studenti a orientarsi verso carriere nel gaming, tech e industrie creative",
-    "Supporto le aziende nel gaming e tech nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e operations"
+    "Specializzata in gaming, big tech e creative industries — con focus principale su artisti, sviluppatori, professionisti tech e creative, ma con competenze trasversali in altre industries",
+    "Aiuto professionisti del settore a fare chiarezza e costruire strategie di crescita, e studenti a orientarsi verso carriere nel gaming, tech, creative industries e oltre",
+    "Supporto le aziende nel gaming, tech e altri settori nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e operations"
   ];
 
   return (
@@ -41,7 +41,7 @@ const About = () => {
               </p>
 
               <p className="text-base">
-                Dopo un corso di HR Management sono entrata come recruiter in Amazon e oggi lavoro in Keywords Studios, supportando team globali nel recruiting di artisti — la mia vera passione — sviluppatori, professionisti di marketing, operations, sales e C-level.
+                Dopo un corso di HR Management sono entrata come recruiter in Amazon e oggi lavoro in Keywords Studios, supportando team globali nel recruiting di artisti — la mia vera passione — sviluppatori, professionisti di marketing, operations, sales e C-level. Le mie principali specializzazioni sono il gaming e le big tech, ma grazie alla mia esperienza so bene come funziona il mercato del lavoro sia in Italia che nel resto del mondo, quindi posso supportarti anche in altre industries.
               </p>
 
               <p className="text-base">
