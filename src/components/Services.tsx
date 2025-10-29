@@ -47,12 +47,12 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="shadow-neon hover:shadow-neon transition-smooth hover:-translate-y-2 border-2 border-primary/30 hover:border-primary bg-card/95 backdrop-blur-sm hud-border overflow-hidden relative group"
+                className="shadow-medium hover:shadow-neon-blue transition-smooth hover:-translate-y-2 border-2 border-primary/30 hover:border-primary/60 bg-card/95 backdrop-blur-sm hud-border overflow-hidden relative group"
               >
                 <div className="absolute top-0 left-0 w-full h-1 bg-gradient-neon"></div>
                 <CardHeader className="pb-4">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-20 h-20 rounded-lg bg-primary/10 border-2 border-primary flex items-center justify-center flex-shrink-0 shadow-neon group-hover:shadow-neon transition-smooth">
+                    <div className="w-20 h-20 rounded-lg bg-primary/10 border-2 border-primary flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-blue transition-smooth">
                       <Icon className="h-10 w-10 text-primary" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
@@ -70,7 +70,7 @@ const Services = () => {
                       {service.highlights.map((highlight, idx) => (
                         <span 
                           key={idx}
-                          className="px-3 py-2 bg-primary/10 text-primary text-xs font-gaming font-bold rounded border border-primary/30 hover:bg-primary/20 transition-smooth uppercase"
+                          className="px-3 py-2 bg-primary/10 text-primary text-xs font-gaming font-bold rounded border border-primary/30 hover:bg-primary/15 transition-smooth uppercase"
                         >
                           {highlight}
                         </span>

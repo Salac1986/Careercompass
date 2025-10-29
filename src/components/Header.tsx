@@ -28,6 +28,12 @@ const Header = () => {
               Servizi
             </a>
             <a 
+              href="/inventario"
+              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+            >
+              Inventario
+            </a>
+            <a 
               href="#about"
               onClick={(e) => {
                 e.preventDefault();

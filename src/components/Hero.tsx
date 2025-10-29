@@ -26,7 +26,7 @@ const Hero = () => {
         <div className="max-w-4xl">
           <div className="mb-6 inline-block">
             <span className="px-6 py-2 bg-primary/10 border-2 border-primary text-primary font-gaming font-bold text-sm uppercase tracking-wider rounded-lg shadow-neon backdrop-blur-sm">
-              Career Compass
+              Career Compass — La bussola per la tua carriera
             </span>
           </div>
           <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-gaming uppercase">
