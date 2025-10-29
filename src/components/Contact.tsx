@@ -3,7 +3,7 @@ import { Mail, MapPin, Calendar } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="cv-section bg-primary/10">
+    <section id="contact" className="cv-section" style={{ background: 'linear-gradient(to bottom, hsl(220 30% 8%), hsl(220 35% 5%))' }}>
       <div className="container px-4 md:px-6">
         <div className="mb-20">
           <div className="border-l-4 border-accent pl-6 mb-8 relative">
@@ -19,7 +19,7 @@ const Contact = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {/* Calendly Booking */}
-          <Card className="lg:col-span-2 shadow-neon border-2 border-accent/30 bg-card/95 backdrop-blur-sm lg:order-2 overflow-hidden relative">
+          <Card className="lg:col-span-2 shadow-soft hover:shadow-neon transition-smooth border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm lg:order-2 overflow-hidden relative">
             <div className="absolute top-0 left-0 w-full h-1 bg-accent shadow-neon"></div>
             <CardHeader className="border-b-2 border-accent/20 pb-6">
               <div className="flex items-center gap-4 mb-2">
@@ -47,7 +47,7 @@ const Contact = () => {
 
           {/* Contact Info Cards */}
           <div className="space-y-6 lg:order-1">
-            <Card className="shadow-neon border-2 border-secondary/30 bg-card/95 backdrop-blur-sm hover:shadow-neon-cyan transition-smooth overflow-hidden relative group">
+            <Card className="shadow-soft hover:shadow-neon transition-smooth border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm overflow-hidden relative group">
               <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-cyan"></div>
               <CardHeader>
                 <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-cyan group-hover:shadow-neon-cyan transition-smooth">
@@ -60,7 +60,7 @@ const Contact = () => {
               </CardHeader>
             </Card>
 
-            <Card className="shadow-neon border-2 border-secondary/30 bg-card/95 backdrop-blur-sm hover:shadow-neon-cyan transition-smooth overflow-hidden relative group">
+            <Card className="shadow-soft hover:shadow-neon transition-smooth border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm overflow-hidden relative group">
               <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-cyan"></div>
               <CardHeader>
                 <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-cyan group-hover:shadow-neon-cyan transition-smooth">

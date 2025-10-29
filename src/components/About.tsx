@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="cv-section bg-primary/10">
+    <section id="about" className="cv-section" style={{ background: 'linear-gradient(to bottom, hsl(220 30% 8%), hsl(220 35% 5%))' }}>
       <div className="container px-4 md:px-6">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           
@@ -71,21 +71,21 @@ const About = () => {
             </div>
             
             <div className="space-y-6">
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-accent shadow-neon hover:shadow-neon transition-smooth">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-2 border-accent/30 hover:border-accent shadow-soft hover:shadow-neon transition-smooth">
                 <p className="text-foreground font-tech italic mb-4">
                   "Grazie al bilancio delle competenze con Cristina e alla revisione completa del mio CV, sono riuscita a capire meglio i miei punti di forza e a presentarli in modo chiaro. Dopo anni di immobilismo nel mio vecchio lavoro, sono riuscita a dare una direzione alle mie esperienze e a trovare lavoro in una multinazionale con ampie possibilità di crescita interne"
                 </p>
                 <p className="text-secondary font-semibold font-gaming">— Claudia</p>
               </Card>
 
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-secondary shadow-neon-blue hover:shadow-neon-blue transition-smooth">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-2 border-accent/30 hover:border-accent shadow-soft hover:shadow-neon transition-smooth">
                 <p className="text-foreground font-tech italic mb-4">
                   "Non avevo idea che il mio CV fosse così lungo e disorganizzato, né che i recruiter e i sistemi ATS filtrassero i candidati in quel modo. Lavorare con Cristina mi ha aperto gli occhi: abbiamo tagliato il superfluo, messo in evidenza le cose importanti e reso il mio profilo davvero leggibile. Dopo un periodo di disoccupazione, ho trovato il lavoro perfetto per me"
                 </p>
                 <p className="text-secondary font-semibold font-gaming">— Francesco</p>
               </Card>
 
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-accent shadow-neon hover:shadow-neon transition-smooth">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-2 border-accent/30 hover:border-accent shadow-soft hover:shadow-neon transition-smooth">
                 <p className="text-foreground font-tech italic mb-4">
                   "Dopo un lungo periodo di disoccupazione e tanta incertezza sulla mia carriera, mi sono rivolta a Cristina. Il percorso con lei è stato fondamentale: mi ha aiutata a fare chiarezza sui miei punti di forza, a costruire un piano concreto e a prepararmi passo passo. Grazie ai suoi consigli mirati, sono riuscita a superare con successo tutti i colloqui e a entrare in Amazon, ottenendo il lavoro dei miei sogni. Non ce l'avrei mai fatta da sola!"
                 </p>

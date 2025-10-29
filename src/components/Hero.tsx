@@ -40,7 +40,7 @@ const Hero = () => {
               variant="default" 
               size="lg"
               onClick={scrollToContact}
-              className="text-sm sm:text-base font-gaming px-6 py-4 sm:px-10 sm:py-6 h-auto bg-secondary hover:bg-secondary/90 text-secondary-foreground border-2 border-secondary shadow-neon-cyan"
+              className="text-sm sm:text-base font-gaming px-6 py-4 sm:px-10 sm:py-6 h-auto bg-black hover:bg-black/90 text-white border-2 border-accent shadow-neon"
             >
               Inizia Ora <ArrowRight className="ml-2 h-5 w-5 sm:h-6 sm:w-6" />
             </Button>

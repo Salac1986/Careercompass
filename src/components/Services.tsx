@@ -27,7 +27,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="cv-section bg-primary/10">
+    <section id="services" className="cv-section" style={{ background: 'linear-gradient(to bottom, hsl(220 35% 5%), hsl(220 30% 8%))' }}>
       <div className="container px-4 md:px-6">
         <div className="mb-20">
           <div className="border-l-4 border-accent pl-6 mb-8 relative">
@@ -47,7 +47,7 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="shadow-soft hover:shadow-neon-cyan transition-smooth hover:-translate-y-2 border-2 border-accent/20 hover:border-secondary/60 bg-card/95 backdrop-blur-sm overflow-hidden relative group"
+                className="shadow-soft hover:shadow-neon transition-smooth hover:-translate-y-2 border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm overflow-hidden relative group"
               >
                 <div className="absolute top-0 left-0 w-full h-1 bg-secondary/60"></div>
                 <CardHeader className="pb-4">
