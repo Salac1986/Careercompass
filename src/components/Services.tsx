@@ -4,19 +4,22 @@ import { Briefcase, GraduationCap, Building2 } from "lucide-react";
 const services = [
   {
     icon: Briefcase,
-    title: "Orientamento Professionale",
+    title: "Level Up Your Career",
+    subtitle: "Orientamento Professionale",
     description: "Guida per professionisti nel gaming, big tech e creative industries che vogliono crescere, fare una transizione o ridefinire la propria carriera.",
     highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
   },
   {
     icon: GraduationCap,
-    title: "Orientamento per Studenti",
+    title: "Player One Ready",
+    subtitle: "Orientamento per Studenti",
     description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries: dall'università in Italia o all'estero, alle prime scelte professionali.",
     highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
   },
   {
     icon: Building2,
-    title: "Servizi di Recruiting per Aziende",
+    title: "Guild Recruitment",
+    subtitle: "Servizi di Recruiting per Aziende",
     description: "Supporto specializzato per aziende nel gaming, big tech e creative industries nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e corporate.",
     highlights: ["Talent Acquisition", "Screening Candidati", "Recruitment Strategico", "Employer Branding"]
   }
@@ -54,6 +57,7 @@ const Services = () => {
                     </div>
                     <div className="flex-1">
                       <CardTitle className="text-2xl font-extrabold mb-2 font-gaming uppercase text-foreground">{service.title}</CardTitle>
+                      <p className="text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
                     </div>
                   </div>
                   <CardDescription className="text-base font-tech font-normal leading-relaxed">
