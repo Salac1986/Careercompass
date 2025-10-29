@@ -17,12 +17,13 @@ const About = () => {
           
           {/* Content Side */}
           <div>
-            <div className="border-l-8 border-secondary pl-6 mb-8">
-              <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-title text-foreground">
+            <div className="border-l-4 border-primary pl-6 mb-8 relative">
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
+              <h2 className="text-4xl md:text-6xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
                 Chi Sono
               </h2>
             </div>
-            <div className="space-y-6 text-foreground font-body leading-relaxed">
+            <div className="space-y-6 text-foreground font-tech leading-relaxed">
               <p className="text-base">
                 Ciao, e benvenuto! Sono Cristina, recruiter aziendale e coach.
               </p>
@@ -52,9 +53,9 @@ const About = () => {
 
             <div className="space-y-4 mt-8">
               {credentials.map((credential, index) => (
-                <div key={index} className="flex items-start gap-4 p-4 bg-accent/20 rounded-lg border-l-4 border-primary">
-                  <CheckCircle2 className="h-6 w-6 text-secondary flex-shrink-0 mt-1" strokeWidth={3} />
-                  <span className="text-foreground font-body font-semibold text-base">{credential}</span>
+                <div key={index} className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg border-l-4 border-primary shadow-soft hover:shadow-neon transition-smooth hover:bg-primary/10">
+                  <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0 mt-1" strokeWidth={3} />
+                  <span className="text-foreground font-tech font-semibold text-base">{credential}</span>
                 </div>
               ))}
             </div>
@@ -62,32 +63,33 @@ const About = () => {
 
           {/* Testimonials Side */}
           <div className="relative lg:order-2">
-            <div className="border-l-8 border-secondary pl-6 mb-8">
-              <h3 className="text-3xl md:text-4xl font-bold text-foreground font-title">
+            <div className="border-l-4 border-secondary pl-6 mb-8 relative">
+              <div className="absolute left-0 top-0 bottom-0 w-1 bg-secondary shadow-neon-blue"></div>
+              <h3 className="text-3xl md:text-4xl font-bold text-foreground font-gaming uppercase">
                 Testimonial
               </h3>
             </div>
             
             <div className="space-y-6">
-              <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
-                <p className="text-foreground font-body italic mb-4">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-primary shadow-neon hover:shadow-neon transition-smooth">
+                <p className="text-foreground font-tech italic mb-4">
                   "Grazie al bilancio delle competenze con Cristina e alla revisione completa del mio CV, sono riuscita a capire meglio i miei punti di forza e a presentarli in modo chiaro. Dopo anni di immobilismo nel mio vecchio lavoro, sono riuscita a dare una direzione alle mie esperienze e a trovare lavoro in una multinazionale con ampie possibilità di crescita interne"
                 </p>
-                <p className="text-secondary font-semibold">— Claudia</p>
+                <p className="text-secondary font-semibold font-gaming">— Claudia</p>
               </Card>
 
-              <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
-                <p className="text-foreground font-body italic mb-4">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-secondary shadow-neon-blue hover:shadow-neon-blue transition-smooth">
+                <p className="text-foreground font-tech italic mb-4">
                   "Non avevo idea che il mio CV fosse così lungo e disorganizzato, né che i recruiter e i sistemi ATS filtrassero i candidati in quel modo. Lavorare con Cristina mi ha aperto gli occhi: abbiamo tagliato il superfluo, messo in evidenza le cose importanti e reso il mio profilo davvero leggibile. Dopo un periodo di disoccupazione, ho trovato il lavoro perfetto per me"
                 </p>
-                <p className="text-secondary font-semibold">— Francesco</p>
+                <p className="text-secondary font-semibold font-gaming">— Francesco</p>
               </Card>
 
-              <Card className="p-6 bg-accent/20 border-l-4 border-primary shadow-medium">
-                <p className="text-foreground font-body italic mb-4">
+              <Card className="p-6 bg-card/95 backdrop-blur-sm border-l-4 border-primary shadow-neon hover:shadow-neon transition-smooth">
+                <p className="text-foreground font-tech italic mb-4">
                   "Dopo un lungo periodo di disoccupazione e tanta incertezza sulla mia carriera, mi sono rivolta a Cristina. Il percorso con lei è stato fondamentale: mi ha aiutata a fare chiarezza sui miei punti di forza, a costruire un piano concreto e a prepararmi passo passo. Grazie ai suoi consigli mirati, sono riuscita a superare con successo tutti i colloqui e a entrare in Amazon, ottenendo il lavoro dei miei sogni. Non ce l'avrei mai fatta da sola!"
                 </p>
-                <p className="text-secondary font-semibold">— Federica</p>
+                <p className="text-secondary font-semibold font-gaming">— Federica</p>
               </Card>
             </div>
           </div>

@@ -25,14 +25,14 @@ const Hero = () => {
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-4xl">
           <div className="mb-6 inline-block">
-            <span className="px-6 py-2 bg-secondary/20 border-2 border-secondary text-secondary-foreground font-title font-bold text-sm uppercase tracking-wider rounded-full">
+            <span className="px-6 py-2 bg-primary/10 border-2 border-primary text-primary font-gaming font-bold text-sm uppercase tracking-wider rounded-lg shadow-neon backdrop-blur-sm">
               Career Compass
             </span>
           </div>
-          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-title">
+          <h1 className="text-5xl md:text-7xl lg:text-8xl font-extrabold mb-8 leading-[1.1] text-foreground tracking-tight font-gaming uppercase">
             La bussola per orientarti nel lavoro e nello studio.
           </h1>
-          <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-body font-medium leading-relaxed">
+          <h2 className="text-2xl md:text-4xl text-foreground mb-10 max-w-3xl font-tech font-semibold leading-relaxed">
             Specializzata in gaming, big tech e creative industries — ti aiuto a (ri)trovare la tua direzione professionale.
           </h2>
           <div className="flex flex-col sm:flex-row gap-6">
@@ -40,7 +40,7 @@ const Hero = () => {
               variant="hero" 
               size="lg"
               onClick={scrollToContact}
-              className="text-lg font-bold px-10 py-6 h-auto"
+              className="text-base font-gaming px-10 py-6 h-auto"
             >
               Inizia Ora <ArrowRight className="ml-2 h-6 w-6" />
             </Button>
@@ -48,7 +48,7 @@ const Hero = () => {
               variant="outline" 
               size="lg"
               onClick={() => document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' })}
-              className="text-lg font-bold px-10 py-6 h-auto border-2 border-foreground/20 hover:border-primary hover:bg-primary/10"
+              className="text-base font-gaming px-10 py-6 h-auto"
             >
               Scopri i Servizi
             </Button>

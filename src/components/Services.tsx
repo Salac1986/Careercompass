@@ -27,11 +27,12 @@ const Services = () => {
     <section id="services" className="cv-section bg-accent/30">
       <div className="container px-4 md:px-6">
         <div className="mb-20">
-          <div className="border-l-8 border-secondary pl-6 mb-8">
-            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-title text-foreground">
+          <div className="border-l-4 border-primary pl-6 mb-8 relative">
+            <div className="absolute left-0 top-0 bottom-0 w-1 bg-primary shadow-neon"></div>
+            <h2 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight font-gaming uppercase text-foreground">
               Servizi Professionali
             </h2>
-            <p className="text-xl font-body font-medium text-muted-foreground max-w-2xl">
+            <p className="text-xl font-tech font-medium text-muted-foreground max-w-2xl">
               Percorsi su misura per ritrovare la tua rotta — che tu sia all'inizio del viaggio o pronto a cambiare direzione.
             </p>
           </div>
@@ -43,28 +44,29 @@ const Services = () => {
             return (
               <Card 
                 key={index} 
-                className="shadow-medium hover:shadow-medium transition-smooth hover:-translate-y-2 border-4 border-accent/30 hover:border-secondary/70 bg-card"
+                className="shadow-neon hover:shadow-neon transition-smooth hover:-translate-y-2 border-2 border-primary/30 hover:border-primary bg-card/95 backdrop-blur-sm hud-border overflow-hidden relative group"
               >
+                <div className="absolute top-0 left-0 w-full h-1 bg-gradient-neon"></div>
                 <CardHeader className="pb-4">
                   <div className="flex items-start gap-4 mb-4">
-                    <div className="w-20 h-20 rounded-xl bg-secondary/20 border-3 border-secondary flex items-center justify-center flex-shrink-0">
-                      <Icon className="h-10 w-10 text-secondary" strokeWidth={2.5} />
+                    <div className="w-20 h-20 rounded-lg bg-primary/10 border-2 border-primary flex items-center justify-center flex-shrink-0 shadow-neon group-hover:shadow-neon transition-smooth">
+                      <Icon className="h-10 w-10 text-primary" strokeWidth={2.5} />
                     </div>
                     <div className="flex-1">
-                      <CardTitle className="text-2xl font-extrabold mb-2 font-title text-foreground">{service.title}</CardTitle>
+                      <CardTitle className="text-2xl font-extrabold mb-2 font-gaming uppercase text-foreground">{service.title}</CardTitle>
                     </div>
                   </div>
-                  <CardDescription className="text-base font-body font-normal leading-relaxed">
+                  <CardDescription className="text-base font-tech font-normal leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="pt-4 border-t-2 border-border/30">
+                  <div className="pt-4 border-t-2 border-primary/20">
                     <div className="grid grid-cols-2 gap-2">
                       {service.highlights.map((highlight, idx) => (
                         <span 
                           key={idx}
-                          className="px-3 py-2 bg-primary/10 text-foreground text-sm font-bold rounded-lg border border-primary/20"
+                          className="px-3 py-2 bg-primary/10 text-primary text-xs font-gaming font-bold rounded border border-primary/30 hover:bg-primary/20 transition-smooth uppercase"
                         >
                           {highlight}
                         </span>

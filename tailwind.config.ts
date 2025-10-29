@@ -15,9 +15,10 @@ export default {
     extend: {
       fontFamily: {
         sans: ['Inter', 'system-ui', 'sans-serif'],
-        serif: ['Libre Baskerville', 'Crimson Text', 'Georgia', 'serif'],
-        title: ['Libre Baskerville', 'serif'],
-        body: ['Inter', 'sans-serif'],
+        gaming: ['Orbitron', 'sans-serif'],
+        tech: ['Rajdhani', 'sans-serif'],
+        title: ['Orbitron', 'sans-serif'],
+        body: ['Rajdhani', 'Inter', 'sans-serif'],
       },
       colors: {
         border: "hsl(var(--border))",
