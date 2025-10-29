@@ -11,7 +11,7 @@ const services = [
   },
   {
     icon: GraduationCap,
-    title: "Player One Ready",
+    title: "First Quest",
     subtitle: "Orientamento per Studenti",
     description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries: dall'università in Italia o all'estero, alle prime scelte professionali.",
     highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
