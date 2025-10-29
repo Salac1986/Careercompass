@@ -8,9 +8,18 @@ const Hero = () => {
   };
 
   return (
-    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden mt-20 bg-black">
-      {/* Subtle gradient overlay */}
-      <div className="absolute inset-0 z-0 bg-gradient-to-br from-black via-black to-primary/5" />
+    <section className="relative min-h-[90vh] flex items-center justify-center overflow-hidden mt-20">
+      {/* Background Image with Overlay */}
+      <div 
+        className="absolute inset-0 z-0"
+        style={{
+          backgroundImage: `url(${heroCompass})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center center',
+        }}
+      >
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/90 to-background/85 md:from-background/100 md:via-background/99 md:to-background/97" />
+      </div>
 
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6">
