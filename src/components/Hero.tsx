@@ -47,8 +47,8 @@ const Hero = () => {
           </div>
 
           {/* Compass Image */}
-          <div className="hidden lg:flex justify-center items-center">
-            <div className="relative w-[400px] h-[400px] rounded-2xl overflow-hidden shadow-neon border-4 border-accent/20 hover:border-accent/40 transition-all duration-500 hover:scale-105">
+          <div className="flex justify-center items-center">
+            <div className="relative w-[280px] h-[280px] sm:w-[350px] sm:h-[350px] lg:w-[400px] lg:h-[400px] rounded-2xl overflow-hidden shadow-neon border-4 border-accent/20 hover:border-accent/40 transition-all duration-500 hover:scale-105">
               <img 
                 src={heroCompass} 
                 alt="Career Compass - Orientamento Professionale" 
