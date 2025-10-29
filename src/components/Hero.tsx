@@ -18,14 +18,14 @@ const Hero = () => {
           backgroundPosition: 'center center',
         }}
       >
-        <div className="absolute inset-0 bg-gradient-to-r from-background/100 via-background/98 to-background/95 md:from-background/100 md:via-background/99 md:to-background/97" />
+        <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/90 to-background/85 md:from-background/100 md:via-background/99 md:to-background/97" />
       </div>
 
       {/* Content */}
       <div className="container relative z-10 px-4 md:px-6">
         <div className="max-w-4xl">
           <div className="mb-6 inline-block">
-            <span className="px-6 py-2 bg-primary/10 border-2 border-primary text-primary font-gaming font-bold text-sm uppercase tracking-wider rounded-lg shadow-soft backdrop-blur-sm">
+            <span className="px-3 py-1.5 sm:px-6 sm:py-2 bg-primary/10 border-2 border-primary text-primary font-gaming font-bold text-xs sm:text-sm uppercase tracking-wide sm:tracking-wider rounded-lg shadow-soft backdrop-blur-sm break-words max-w-full inline-block">
               Career Compass — La bussola per la tua carriera
             </span>
           </div>
