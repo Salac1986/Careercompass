@@ -5,28 +5,56 @@ const Contact = () => {
   return (
     <section id="contact" className="cv-section bg-background">
       <div className="container px-4 md:px-6">
-        <div className="mb-20">
-          <div className="border-l-4 border-accent pl-6 mb-8 relative">
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-accent shadow-neon"></div>
-            <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-3 sm:mb-4 tracking-tight font-gaming uppercase text-foreground">
-              Contattami
-            </h2>
-            <p className="text-base sm:text-lg md:text-xl font-tech font-medium text-muted-foreground max-w-2xl">
-              Pronto per fare il prossimo passo? Discutiamo i tuoi obiettivi.
-            </p>
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="inline-block mb-4">
+            <span className="px-4 py-2 bg-accent/10 border border-accent/30 text-accent font-gaming font-bold text-xs uppercase tracking-wider rounded-full">
+              Parliamone
+            </span>
           </div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
+            Contattami
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl font-tech text-muted-foreground">
+            Pronto per fare il prossimo passo? Prenota una consulenza gratuita.
+          </p>
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          {/* Contact Info Cards */}
+          <div className="space-y-6 lg:order-1">
+            <Card className="border-2 border-border hover:border-accent hover:shadow-soft transition-all bg-card">
+              <CardHeader>
+                <div className="w-14 h-14 rounded-xl bg-accent/10 border-2 border-accent/30 flex items-center justify-center mb-4">
+                  <Mail className="h-7 w-7 text-accent" strokeWidth={2.5} />
+                </div>
+                <CardTitle className="text-xl font-extrabold font-gaming uppercase">Email</CardTitle>
+                <CardDescription className="font-tech font-semibold text-base">
+                  cristina.salac86@gmail.com
+                </CardDescription>
+              </CardHeader>
+            </Card>
+
+            <Card className="border-2 border-border hover:border-accent hover:shadow-soft transition-all bg-card">
+              <CardHeader>
+                <div className="w-14 h-14 rounded-xl bg-accent/10 border-2 border-accent/30 flex items-center justify-center mb-4">
+                  <MapPin className="h-7 w-7 text-accent" strokeWidth={2.5} />
+                </div>
+                <CardTitle className="text-xl font-extrabold font-gaming uppercase">Sede</CardTitle>
+                <CardDescription className="font-tech font-semibold text-base">
+                  Online e in presenza a Monza
+                </CardDescription>
+              </CardHeader>
+            </Card>
+          </div>
+
           {/* Calendly Booking */}
-          <Card className="lg:col-span-2 shadow-soft hover:shadow-neon transition-smooth border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm lg:order-2 overflow-hidden relative">
-            <div className="absolute top-0 left-0 w-full h-1 bg-accent shadow-neon"></div>
-            <CardHeader className="border-b-2 border-accent/20 pb-6">
+          <Card className="lg:col-span-2 border-2 border-accent/30 hover:border-accent bg-card lg:order-2 overflow-hidden transition-all">
+            <CardHeader className="border-b-2 border-border">
               <div className="flex items-center gap-4 mb-2">
-                <div className="w-14 h-14 rounded-lg bg-accent/10 border-2 border-accent flex items-center justify-center shadow-neon">
+                <div className="w-14 h-14 rounded-xl bg-accent/10 border-2 border-accent/30 flex items-center justify-center">
                   <Calendar className="h-7 w-7 text-accent" strokeWidth={2.5} />
                 </div>
-                <CardTitle className="text-3xl font-extrabold font-gaming uppercase">Prenota una Consulenza Gratuita</CardTitle>
+                <CardTitle className="text-2xl font-extrabold font-gaming uppercase">Prenota una Consulenza Gratuita</CardTitle>
               </div>
               <CardDescription className="font-tech font-semibold text-base">
                 Seleziona una data e un orario che funzionano per te. La prima consulenza è completamente gratuita.
@@ -44,35 +72,6 @@ const Contact = () => {
               </div>
             </CardContent>
           </Card>
-
-          {/* Contact Info Cards */}
-          <div className="space-y-6 lg:order-1">
-            <Card className="shadow-soft hover:shadow-neon transition-smooth border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm overflow-hidden relative group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-cyan"></div>
-              <CardHeader>
-                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-cyan group-hover:shadow-neon-cyan transition-smooth">
-                  <Mail className="h-7 w-7 text-secondary" strokeWidth={2.5} />
-                </div>
-                <CardTitle className="text-xl font-extrabold font-gaming uppercase">Email</CardTitle>
-                <CardDescription className="font-tech font-semibold text-base">
-                  cristina.salac86@gmail.com
-                </CardDescription>
-              </CardHeader>
-            </Card>
-
-            <Card className="shadow-soft hover:shadow-neon transition-smooth border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm overflow-hidden relative group">
-              <div className="absolute top-0 left-0 w-full h-1 bg-secondary shadow-neon-cyan"></div>
-              <CardHeader>
-                <div className="w-14 h-14 rounded-lg bg-secondary/10 border-2 border-secondary flex items-center justify-center mb-3 shadow-neon-cyan group-hover:shadow-neon-cyan transition-smooth">
-                  <MapPin className="h-7 w-7 text-secondary" strokeWidth={2.5} />
-                </div>
-                <CardTitle className="text-xl font-extrabold font-gaming uppercase">Sede</CardTitle>
-                <CardDescription className="font-tech font-semibold text-base">
-                  Online e in presenza a Monza
-                </CardDescription>
-              </CardHeader>
-            </Card>
-          </div>
         </div>
       </div>
     </section>

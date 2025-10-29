@@ -11,15 +11,19 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="cv-section bg-background">
+    <section id="about" className="cv-section bg-muted/30">
       <div className="container px-4 md:px-6">
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           {/* Content Side */}
           <div>
-            <div className="border-l-4 border-accent pl-6 mb-8 relative">
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-accent shadow-neon"></div>
-              <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 sm:mb-6 tracking-tight font-gaming uppercase text-foreground">
+            <div className="mb-8">
+              <div className="inline-block mb-4">
+                <span className="px-4 py-2 bg-accent/10 border border-accent/30 text-accent font-gaming font-bold text-xs uppercase tracking-wider rounded-full">
+                  La Mia Storia
+                </span>
+              </div>
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
                 Chi Sono
               </h2>
             </div>
@@ -49,47 +53,52 @@ const About = () => {
               </p>
             </div>
 
-            <div className="section-divider" />
-
-            <div className="space-y-4 mt-8">
-              {credentials.map((credential, index) => (
-                <div key={index} className="flex items-start gap-4 p-4 bg-primary/5 rounded-lg border-l-4 border-accent shadow-soft hover:shadow-neon transition-smooth hover:bg-primary/10">
-                  <CheckCircle2 className="h-6 w-6 text-accent flex-shrink-0 mt-1" strokeWidth={3} />
-                  <span className="text-foreground font-tech font-semibold text-base">{credential}</span>
-                </div>
-              ))}
+            <div className="mt-10 p-6 bg-accent/5 border-l-4 border-accent rounded-r-lg">
+              <h3 className="text-xl font-bold font-gaming uppercase text-foreground mb-4">Le Mie Competenze</h3>
+              <div className="space-y-3">
+                {credentials.map((credential, index) => (
+                  <div key={index} className="flex items-start gap-3">
+                    <CheckCircle2 className="h-5 w-5 text-accent flex-shrink-0 mt-0.5" strokeWidth={2.5} />
+                    <span className="text-foreground font-tech text-sm">{credential}</span>
+                  </div>
+                ))}
+              </div>
             </div>
           </div>
 
           {/* Testimonials Side */}
-          <div className="relative lg:order-2">
-            <div className="border-l-4 border-secondary pl-6 mb-8 relative">
-              <div className="absolute left-0 top-0 bottom-0 w-1 bg-secondary shadow-neon-blue"></div>
-              <h3 className="text-2xl sm:text-3xl md:text-4xl font-bold text-foreground font-gaming uppercase">
-                Testimonial
+          <div className="lg:sticky lg:top-24">
+            <div className="mb-8">
+              <div className="inline-block mb-4">
+                <span className="px-4 py-2 bg-primary/10 border border-primary/30 text-primary font-gaming font-bold text-xs uppercase tracking-wider rounded-full">
+                  Recensioni
+                </span>
+              </div>
+              <h3 className="text-2xl sm:text-3xl font-bold text-foreground font-gaming uppercase">
+                Cosa Dicono di Me
               </h3>
             </div>
             
             <div className="space-y-6">
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-2 border-accent/30 hover:border-accent shadow-soft hover:shadow-neon transition-smooth">
-                <p className="text-foreground font-tech italic mb-4">
+              <Card className="p-6 bg-card border-2 border-border hover:border-primary/50 hover:shadow-soft transition-all">
+                <p className="text-foreground font-tech italic mb-4 leading-relaxed">
                   "Grazie al bilancio delle competenze con Cristina e alla revisione completa del mio CV, sono riuscita a capire meglio i miei punti di forza e a presentarli in modo chiaro. Dopo anni di immobilismo nel mio vecchio lavoro, sono riuscita a dare una direzione alle mie esperienze e a trovare lavoro in una multinazionale con ampie possibilità di crescita interne"
                 </p>
-                <p className="text-secondary font-semibold font-gaming">— Claudia</p>
+                <p className="text-primary font-semibold font-gaming">— Claudia</p>
               </Card>
 
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-2 border-accent/30 hover:border-accent shadow-soft hover:shadow-neon transition-smooth">
-                <p className="text-foreground font-tech italic mb-4">
+              <Card className="p-6 bg-card border-2 border-border hover:border-primary/50 hover:shadow-soft transition-all">
+                <p className="text-foreground font-tech italic mb-4 leading-relaxed">
                   "Non avevo idea che il mio CV fosse così lungo e disorganizzato, né che i recruiter e i sistemi ATS filtrassero i candidati in quel modo. Lavorare con Cristina mi ha aperto gli occhi: abbiamo tagliato il superfluo, messo in evidenza le cose importanti e reso il mio profilo davvero leggibile. Dopo un periodo di disoccupazione, ho trovato il lavoro perfetto per me"
                 </p>
-                <p className="text-secondary font-semibold font-gaming">— Francesco</p>
+                <p className="text-primary font-semibold font-gaming">— Francesco</p>
               </Card>
 
-              <Card className="p-6 bg-card/95 backdrop-blur-sm border-2 border-accent/30 hover:border-accent shadow-soft hover:shadow-neon transition-smooth">
-                <p className="text-foreground font-tech italic mb-4">
+              <Card className="p-6 bg-card border-2 border-border hover:border-primary/50 hover:shadow-soft transition-all">
+                <p className="text-foreground font-tech italic mb-4 leading-relaxed">
                   "Dopo un lungo periodo di disoccupazione e tanta incertezza sulla mia carriera, mi sono rivolta a Cristina. Il percorso con lei è stato fondamentale: mi ha aiutata a fare chiarezza sui miei punti di forza, a costruire un piano concreto e a prepararmi passo passo. Grazie ai suoi consigli mirati, sono riuscita a superare con successo tutti i colloqui e a entrare in Amazon, ottenendo il lavoro dei miei sogni. Non ce l'avrei mai fatta da sola!"
                 </p>
-                <p className="text-secondary font-semibold font-gaming">— Federica</p>
+                <p className="text-primary font-semibold font-gaming">— Federica</p>
               </Card>
             </div>
           </div>

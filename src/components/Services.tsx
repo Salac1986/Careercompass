@@ -27,55 +27,54 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="cv-section bg-muted/30">
+    <section id="services" className="cv-section bg-background">
       <div className="container px-4 md:px-6">
-        <div className="mb-20">
-          <div className="border-l-4 border-accent pl-6 mb-8 relative">
-            <div className="absolute left-0 top-0 bottom-0 w-1 bg-accent shadow-neon"></div>
-            <h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold mb-4 sm:mb-6 tracking-tight font-gaming uppercase text-foreground">
-              Servizi Professionali
-            </h2>
-            <p className="text-base sm:text-lg md:text-xl font-tech font-medium text-muted-foreground max-w-2xl">
-              Percorsi su misura per ritrovare la tua rotta — che tu sia all'inizio del viaggio o pronto a cambiare direzione.
-            </p>
+        <div className="max-w-3xl mx-auto text-center mb-16">
+          <div className="inline-block mb-4">
+            <span className="px-4 py-2 bg-accent/10 border border-accent/30 text-accent font-gaming font-bold text-xs uppercase tracking-wider rounded-full">
+              I Miei Servizi
+            </span>
           </div>
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
+            Percorsi Professionali
+          </h2>
+          <p className="text-base sm:text-lg md:text-xl font-tech text-muted-foreground max-w-2xl mx-auto">
+            Soluzioni personalizzate per studenti, professionisti e aziende nel mondo del gaming, tech e creative industries.
+          </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-12 max-w-7xl mx-auto">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
           {services.map((service, index) => {
             const Icon = service.icon;
             return (
               <Card 
                 key={index} 
-                className="shadow-soft hover:shadow-neon transition-smooth hover:-translate-y-2 border-2 border-accent/30 hover:border-accent bg-card/95 backdrop-blur-sm overflow-hidden relative group"
+                className="group hover:-translate-y-2 transition-all duration-300 border-2 border-border hover:border-accent bg-card hover:shadow-neon"
               >
-                <div className="absolute top-0 left-0 w-full h-1 bg-secondary/60"></div>
-                <CardHeader className="pb-4">
-                  <div className="flex items-start gap-3 sm:gap-4 mb-4">
-                    <div className="w-14 h-14 sm:w-20 sm:h-20 rounded-lg bg-secondary/10 border-2 border-secondary/50 flex items-center justify-center flex-shrink-0 shadow-soft group-hover:shadow-neon-cyan transition-smooth">
-                      <Icon className="h-7 w-7 sm:h-10 sm:w-10 text-secondary" strokeWidth={2.5} />
-                    </div>
-                    <div className="flex-1">
-                      <CardTitle className="text-lg sm:text-xl md:text-2xl font-extrabold mb-1 sm:mb-2 font-gaming uppercase text-foreground">{service.title}</CardTitle>
-                      <p className="text-xs sm:text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
-                    </div>
+                <CardHeader className="space-y-4">
+                  <div className="w-16 h-16 rounded-xl bg-accent/10 border-2 border-accent/30 group-hover:border-accent flex items-center justify-center transition-all duration-300">
+                    <Icon className="h-8 w-8 text-accent" strokeWidth={2.5} />
                   </div>
-                  <CardDescription className="text-base font-tech font-normal leading-relaxed">
+                  <div>
+                    <CardTitle className="text-xl font-extrabold mb-2 font-gaming uppercase text-foreground group-hover:text-accent transition-colors">
+                      {service.title}
+                    </CardTitle>
+                    <p className="text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
+                  </div>
+                  <CardDescription className="text-base font-tech leading-relaxed">
                     {service.description}
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="pt-4 border-t-2 border-secondary/20">
-                    <div className="grid grid-cols-2 gap-2">
-                      {service.highlights.map((highlight, idx) => (
-                        <span 
-                          key={idx}
-                          className="px-3 py-2 bg-secondary/10 text-secondary text-xs font-gaming font-bold rounded border border-secondary/30 hover:bg-secondary/15 transition-smooth uppercase"
-                        >
-                          {highlight}
-                        </span>
-                      ))}
-                    </div>
+                  <div className="grid grid-cols-2 gap-2">
+                    {service.highlights.map((highlight, idx) => (
+                      <span 
+                        key={idx}
+                        className="px-3 py-2 bg-muted text-foreground text-xs font-tech font-semibold rounded border border-border group-hover:border-accent/30 transition-all text-center"
+                      >
+                        {highlight}
+                      </span>
+                    ))}
                   </div>
                 </CardContent>
               </Card>
