@@ -1,6 +1,5 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Mail, MapPin, Calendar } from "lucide-react";
-import coachPhoto from "@/assets/coach-portrait.jpg";
 
 const Contact = () => {
   return (
@@ -64,24 +63,15 @@ const Contact = () => {
           {/* Calendly Booking */}
           <Card className="lg:col-span-2 border-2 border-accent/30 hover:border-accent bg-card lg:order-2 overflow-hidden transition-all">
             <CardHeader className="border-b-2 border-border">
-              <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4 mb-2">
-                <img 
-                  src={coachPhoto} 
-                  alt="Cristina - Career Coach" 
-                  className="w-16 h-16 rounded-full object-cover border-2 border-accent/30"
-                />
-                <div className="flex-1">
-                  <div className="flex items-center gap-3 mb-2">
-                    <div className="w-12 h-12 rounded-xl bg-accent/10 border-2 border-accent/30 flex items-center justify-center">
-                      <Calendar className="h-6 w-6 text-accent" strokeWidth={2.5} />
-                    </div>
-                    <CardTitle className="text-xl sm:text-2xl font-extrabold font-gaming uppercase">Prenota una Consulenza Gratuita</CardTitle>
-                  </div>
-                  <CardDescription className="font-tech font-semibold text-base">
-                    Seleziona una data e un orario che funzionano per te. La prima consulenza è completamente gratuita.
-                  </CardDescription>
+              <div className="flex items-center gap-4 mb-2">
+                <div className="w-14 h-14 rounded-xl bg-accent/10 border-2 border-accent/30 flex items-center justify-center">
+                  <Calendar className="h-7 w-7 text-accent" strokeWidth={2.5} />
                 </div>
+                <CardTitle className="text-2xl font-extrabold font-gaming uppercase">Prenota una Consulenza Gratuita</CardTitle>
               </div>
+              <CardDescription className="font-tech font-semibold text-base">
+                Seleziona una data e un orario che funzionano per te. La prima consulenza è completamente gratuita.
+              </CardDescription>
             </CardHeader>
             <CardContent className="p-0">
               <div className="w-full h-[500px] sm:h-[600px] lg:h-[700px]">
