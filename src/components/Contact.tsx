@@ -54,7 +54,7 @@ const Contact = () => {
                 </div>
                 <CardTitle className="text-xl font-extrabold font-gaming uppercase">Sede</CardTitle>
                 <CardDescription className="font-tech font-semibold text-base">
-                  Online e in presenza a Monza
+                  Online e in presenza a Monza (MB)
                 </CardDescription>
               </CardHeader>
             </Card>

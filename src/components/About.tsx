@@ -129,6 +129,20 @@ const About = () => {
                 </p>
                 <p className="text-primary font-semibold font-gaming">— Federica</p>
               </Card>
+
+              <Card className="p-6 bg-card border-2 border-border hover:border-primary/50 hover:shadow-soft transition-all">
+                <p className="text-foreground font-tech italic mb-4 leading-relaxed">
+                  "Cristina reached out to me about a Senior Character Artist position at Electric Square that I didn't even know existed. She not only guided me through the internal studio interviews but also helped me with the entire relocation process from Indonesia to Malta. Thanks to her support, I landed my dream job and successfully made this life-changing move!"
+                </p>
+                <p className="text-primary font-semibold font-gaming">— Andrew</p>
+              </Card>
+
+              <Card className="p-6 bg-card border-2 border-border hover:border-primary/50 hover:shadow-soft transition-all">
+                <p className="text-foreground font-tech italic mb-4 leading-relaxed">
+                  "Cristina è stata fondamentale per costruire una strategia completa dal sourcing all'onboarding di professionisti per il nostro studio. Ha sviluppato un processo efficace utilizzando i tool aziendali a disposizione, garantendo l'espansione dello studio con oltre 110 assunzioni in un anno. Un contributo determinante per la crescita di AMC."
+                </p>
+                <p className="text-primary font-semibold font-gaming">— Vlad, Studio Head AMC</p>
+              </Card>
             </div>
           </div>
         </div>
