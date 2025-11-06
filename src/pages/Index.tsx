@@ -7,10 +7,12 @@ import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import ScrollToTop from "@/components/ScrollToTop";
 import WelcomeModal from "@/components/WelcomeModal";
+import ScrollProgressBar from "@/components/ScrollProgressBar";
 
 const Index = () => {
   return (
     <div className="min-h-screen">
+      <ScrollProgressBar />
       <WelcomeModal />
       <Header />
       <Hero />
