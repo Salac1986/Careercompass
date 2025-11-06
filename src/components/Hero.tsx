@@ -33,11 +33,8 @@ const Hero = () => {
             Career<br/>
             <span className="text-primary">Compass</span>
           </h1>
-          <p className="text-base sm:text-lg text-primary/90 mb-4 font-tech font-semibold">
-            Gaming, Tech & Creative Industries
-          </p>
           <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl font-tech leading-relaxed">
-            Ti aiuto a (ri)trovare la tua direzione professionale con percorsi personalizzati e strategie concrete.
+            Ti aiuto a (ri)trovare la tua direzione professionale in qualsiasi settore, con focus particolare su gaming, tech e creative industries.
           </h2>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
