@@ -102,11 +102,11 @@ const GamesTechPro = () => {
               Percorsi Specializzati
             </span>
           </div>
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-6 tracking-tight font-gaming uppercase text-foreground">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold mb-4 tracking-tight font-gaming uppercase text-foreground">
             Games & Tech Pro
           </h2>
           <p className="text-base sm:text-lg md:text-xl font-tech text-muted-foreground max-w-2xl mx-auto">
-            Percorsi dedicati per chi vuole fare carriera nel gaming, tech e creative industries.
+            Ti aiuto a (ri)trovare la tua direzione professionale con percorsi personalizzati e strategie concrete.
           </p>
         </div>
 
