@@ -1,8 +1,12 @@
 import { Card } from "@/components/ui/card";
-import { CheckCircle2, Compass } from "lucide-react";
+import { CheckCircle2 } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 import logo from "@/assets/logo.png";
 
 const About = () => {
+  const { ref: contentRef, isVisible: contentVisible } = useScrollAnimation({ threshold: 0.1 });
+  const { ref: testimonialsRef, isVisible: testimonialsVisible } = useScrollAnimation({ threshold: 0.1 });
+
   const credentials = [
     "Recruiter e career coach con esperienza in aziende globali come Amazon e Keywords Studios",
     "Specializzata in gaming, big tech e creative industries — con focus principale su artisti, sviluppatori, professionisti tech e creative, ma con competenze trasversali in altre industries",
@@ -31,7 +35,12 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-start">
           
           {/* Content Side */}
-          <div>
+          <div
+            ref={contentRef}
+            className={`transition-all duration-700 ease-out ${
+              contentVisible ? "opacity-100 translate-x-0" : "opacity-0 -translate-x-10"
+            }`}
+          >
             <div className="mb-8">
               <div className="inline-block mb-4">
                 <span className="px-4 py-2 bg-accent/10 border border-accent/30 text-accent font-gaming font-bold text-xs uppercase tracking-wider rounded-full">
@@ -82,7 +91,12 @@ const About = () => {
           </div>
 
           {/* Testimonials Side */}
-          <div className="lg:sticky lg:top-24">
+          <div
+            ref={testimonialsRef}
+            className={`lg:sticky lg:top-24 transition-all duration-700 ease-out ${
+              testimonialsVisible ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"
+            }`}
+          >
             <div className="mb-8">
               <div className="inline-block mb-4">
                 <span className="px-4 py-2 bg-primary/10 border border-primary/30 text-primary font-gaming font-bold text-xs uppercase tracking-wider rounded-full">

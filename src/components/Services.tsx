@@ -1,5 +1,6 @@
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Briefcase, GraduationCap, Building2 } from "lucide-react";
+import { useScrollAnimation } from "@/hooks/useScrollAnimation";
 
 const services = [
   {
@@ -24,6 +25,54 @@ const services = [
     highlights: ["Talent Acquisition", "Screening Candidati", "Recruitment Strategico", "Employer Branding"]
   }
 ];
+
+const ServiceCard = ({ service, index }: { service: typeof services[0]; index: number }) => {
+  const { ref, isVisible } = useScrollAnimation({ threshold: 0.2 });
+  const Icon = service.icon;
+
+  return (
+    <div
+      ref={ref}
+      className={`transition-all duration-700 ease-out ${
+        isVisible
+          ? "opacity-100 translate-y-0"
+          : "opacity-0 translate-y-10"
+      }`}
+      style={{ transitionDelay: `${index * 150}ms` }}
+    >
+      <Card 
+        className="h-full group hover:-translate-y-2 transition-all duration-300 border-2 border-border hover:border-accent bg-card hover:shadow-neon"
+      >
+        <CardHeader className="space-y-4">
+          <div className="w-16 h-16 rounded-xl bg-accent/10 border-2 border-accent/30 group-hover:border-accent flex items-center justify-center transition-all duration-300">
+            <Icon className="h-8 w-8 text-accent" strokeWidth={2.5} />
+          </div>
+          <div>
+            <CardTitle className="text-xl font-extrabold mb-2 font-gaming uppercase text-foreground group-hover:text-accent transition-colors">
+              {service.title}
+            </CardTitle>
+            <p className="text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
+          </div>
+          <CardDescription className="text-base font-tech leading-relaxed">
+            {service.description}
+          </CardDescription>
+        </CardHeader>
+        <CardContent>
+          <div className="grid grid-cols-2 gap-2">
+            {service.highlights.map((highlight, idx) => (
+              <span 
+                key={idx}
+                className="px-3 py-2 bg-muted text-foreground text-xs font-tech font-semibold rounded border border-border group-hover:border-accent/30 transition-all text-center"
+              >
+                {highlight}
+              </span>
+            ))}
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  );
+};
 
 const Services = () => {
   return (
@@ -55,45 +104,12 @@ const Services = () => {
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-7xl mx-auto">
-          {services.map((service, index) => {
-            const Icon = service.icon;
-            return (
-              <Card 
-                key={index} 
-                className="group hover:-translate-y-2 transition-all duration-300 border-2 border-border hover:border-accent bg-card hover:shadow-neon"
-              >
-                <CardHeader className="space-y-4">
-                  <div className="w-16 h-16 rounded-xl bg-accent/10 border-2 border-accent/30 group-hover:border-accent flex items-center justify-center transition-all duration-300">
-                    <Icon className="h-8 w-8 text-accent" strokeWidth={2.5} />
-                  </div>
-                  <div>
-                    <CardTitle className="text-xl font-extrabold mb-2 font-gaming uppercase text-foreground group-hover:text-accent transition-colors">
-                      {service.title}
-                    </CardTitle>
-                    <p className="text-sm text-muted-foreground font-tech font-medium">{service.subtitle}</p>
-                  </div>
-                  <CardDescription className="text-base font-tech leading-relaxed">
-                    {service.description}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="grid grid-cols-2 gap-2">
-                    {service.highlights.map((highlight, idx) => (
-                      <span 
-                        key={idx}
-                        className="px-3 py-2 bg-muted text-foreground text-xs font-tech font-semibold rounded border border-border group-hover:border-accent/30 transition-all text-center"
-                      >
-                        {highlight}
-                      </span>
-                    ))}
-                  </div>
-                </CardContent>
-              </Card>
-          );
-        })}
+          {services.map((service, index) => (
+            <ServiceCard key={index} service={service} index={index} />
+          ))}
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
   );
 };
 
