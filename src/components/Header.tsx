@@ -39,6 +39,16 @@ const Header = () => {
               Servizi
             </a>
             <a 
+              href="#gaming-tech" 
+              onClick={(e) => {
+                e.preventDefault();
+                scrollToSection('gaming-tech');
+              }}
+              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+            >
+              Games & Tech
+            </a>
+            <a 
               href="/inventario"
               className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
             >
@@ -84,6 +94,16 @@ const Header = () => {
                   className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
                 >
                   Servizi
+                </a>
+                <a 
+                  href="#gaming-tech" 
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('gaming-tech');
+                  }}
+                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
+                >
+                  Games & Tech
                 </a>
                 <a 
                   href="/inventario"
