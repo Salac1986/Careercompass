@@ -8,10 +8,10 @@ const About = () => {
   const { ref: testimonialsRef, isVisible: testimonialsVisible } = useScrollAnimation({ threshold: 0.1 });
 
   const credentials = [
-    "Recruiter e career coach con esperienza in aziende globali come Amazon e Keywords Studios",
-    "Specializzata in gaming, big tech e creative industries — con focus principale su artisti, sviluppatori, professionisti tech e creative, ma con competenze trasversali in altre industries",
-    "Aiuto professionisti del settore a fare chiarezza e costruire strategie di crescita, e studenti a orientarsi verso carriere nel gaming, tech, creative industries e oltre",
-    "Supporto le aziende nel gaming, tech e altri settori nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e operations"
+    "Recruiter aziendale e career coach con esperienza in realtà globali come Amazon e Keywords Studios",
+    "Esperta di gaming, big tech e creative industries — artisti, sviluppatori e professionisti tech sono il mio forte, ma porto competenze solide anche in altri settori",
+    "Aiuto professionisti a costruire strategie di crescita concrete e studenti a trovare la loro strada nel gaming, tech, creative industries e oltre",
+    "Supporto aziende nella selezione di talenti in ambito artistico, tech, marketing e operations — nel gaming, tech e altri settori"
   ];
 
   return (
