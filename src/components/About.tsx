@@ -11,7 +11,7 @@ const About = () => {
   ];
 
   return (
-    <section id="about" className="cv-section bg-muted/30 relative overflow-hidden">
+    <section id="about" className="cv-section bg-gradient-to-b from-background via-muted/20 to-background relative overflow-hidden">
       {/* Gaming-style hexagon pattern */}
       <div className="absolute inset-0 opacity-[0.02]">
         <svg width="100%" height="100%" xmlns="http://www.w3.org/2000/svg">

@@ -3,7 +3,7 @@ import { Mail, MapPin, Calendar } from "lucide-react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="cv-section bg-background relative overflow-hidden">
+    <section id="contact" className="cv-section bg-gradient-to-b from-background via-accent/5 to-background relative overflow-hidden">
       {/* Gaming-style circuit lines */}
       <div className="absolute top-0 left-0 w-full h-full opacity-[0.03]">
         <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">

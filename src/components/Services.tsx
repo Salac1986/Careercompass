@@ -27,7 +27,7 @@ const services = [
 
 const Services = () => {
   return (
-    <section id="services" className="cv-section bg-background relative overflow-hidden">
+    <section id="services" className="cv-section bg-gradient-to-b from-background via-muted/20 to-background relative overflow-hidden">
       {/* Gaming-style background pattern */}
       <div className="absolute inset-0 opacity-[0.03]" style={{
         backgroundImage: `
@@ -89,29 +89,11 @@ const Services = () => {
                   </div>
                 </CardContent>
               </Card>
-            );
-          })}
-        </div>
-
-        {/* Gaming & Tech specialized services link */}
-        <div className="mt-16 text-center">
-          <div className="inline-block p-6 bg-accent/5 border-2 border-accent/30 rounded-lg hover:border-accent transition-all">
-            <p className="text-foreground font-tech text-lg mb-3">
-              Vuoi fare carriera nel gaming, tech o creative industries?
-            </p>
-            <p className="text-muted-foreground font-tech text-sm">
-              Dai un'occhiata ai miei percorsi dedicati 👉{" "}
-              <a 
-                href="#gaming-tech" 
-                className="text-accent font-bold hover:underline"
-              >
-                Games & Tech Pro
-              </a>
-            </p>
-          </div>
-        </div>
+          );
+        })}
       </div>
-    </section>
+    </div>
+  </section>
   );
 };
 

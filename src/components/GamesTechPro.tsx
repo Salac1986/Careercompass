@@ -27,7 +27,7 @@ const services = [
 
 const GamesTechPro = () => {
   return (
-    <section id="gaming-tech" className="cv-section bg-gradient-to-br from-primary/5 via-background to-accent/5 relative overflow-hidden">
+    <section id="gaming-tech" className="cv-section bg-gradient-to-b from-background via-primary/5 to-background relative overflow-hidden">
       {/* Gaming-themed decorative elements */}
       <div className="absolute inset-0 opacity-[0.04]" style={{
         backgroundImage: `
