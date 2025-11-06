@@ -42,28 +42,28 @@ const About = () => {
                 Chi Sono
               </h2>
             </div>
-            <div className="space-y-6 text-foreground font-tech leading-relaxed">
-              <p className="text-base">
+            <div className="space-y-5 text-foreground font-tech leading-relaxed">
+              <p className="text-base sm:text-lg">
                 Ciao, e benvenuto! Sono Cristina, recruiter aziendale e coach.
               </p>
 
-              <p className="text-base">
+              <p className="text-sm sm:text-base">
                 Fin da bambina sono stata affascinata dalle lingue, e dopo la laurea in Lingue (russo e giapponese) alla Statale di Milano sono volata a Mosca per un'esperienza all'Università Lomonosov (MGU) che, da breve soggiorno, si è trasformata in un lungo capitolo di vita e lavoro.
               </p>
 
-              <p className="text-base">
+              <p className="text-sm sm:text-base">
                 Al mio rientro in Italia ho lavorato nel settore dell'educazione internazionale, recruitando studenti stranieri per programmi di arte, moda, media e grafica. In quegli anni ho sviluppato una doppia competenza: da un lato la gestione delle vendite, diventando Area Manager per Europa e Turchia, dall'altro l'empatia necessaria per guidare le persone verso le scelte più adatte a loro.
               </p>
 
-              <p className="text-base">
+              <p className="text-sm sm:text-base">
                 Dopo un periodo nel settore industriale, troppo arido per me, sono rientrata nella formazione aziendale, occupandomi dei processi di learning & development per diverse aziende nel settore linguistico e della localizzazione. È stato allora che ho capito cosa mi mancava davvero: il recruiting, sedermi con le persone, capire le loro storie e attitudini, e accompagnarle nel mondo del lavoro.
               </p>
 
-              <p className="text-base">
+              <p className="text-sm sm:text-base">
                 Dopo un corso di HR Management sono entrata come recruiter in Amazon e oggi lavoro in Keywords Studios, supportando team globali nel recruiting di artisti — la mia vera passione — sviluppatori, professionisti di marketing, operations, sales e C-level. Le mie principali specializzazioni sono il gaming e le big tech, ma grazie alla mia esperienza so bene come funziona il mercato del lavoro sia in Italia che nel resto del mondo, quindi posso supportarti anche in altre industries.
               </p>
 
-              <p className="text-base">
+              <p className="text-sm sm:text-base font-semibold">
                 Il mondo del lavoro cambia rapidamente e non tutti hanno le idee chiare su cosa vogliono fare (io stessa ci ho messo anni per capirlo). So cosa vuol dire sentirsi disorientati o bloccati, e voglio aiutare chi si trova in quella fase a ritrovare direzione, fiducia e strumenti concreti per ripartire. Ecco come nasce "Career Compass", la tua bussola nel mondo del lavoro e dello studio.
               </p>
             </div>
