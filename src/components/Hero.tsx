@@ -29,10 +29,13 @@ const Hero = () => {
               Career Coaching Professionale
             </span>
           </div>
-          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-6 leading-tight text-foreground tracking-tight font-gaming uppercase">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold mb-4 leading-tight text-foreground tracking-tight font-gaming uppercase">
             Career<br/>
             <span className="text-primary">Compass</span>
           </h1>
+          <p className="text-base sm:text-lg text-primary/90 mb-4 font-tech font-semibold">
+            Gaming, Tech & Creative Industries
+          </p>
           <h2 className="text-lg sm:text-xl md:text-2xl text-muted-foreground mb-8 max-w-2xl font-tech leading-relaxed">
             Ti aiuto a (ri)trovare la tua direzione professionale con percorsi personalizzati e strategie concrete.
           </h2>
