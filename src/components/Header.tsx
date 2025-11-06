@@ -28,26 +28,35 @@ const Header = () => {
           </button>
           
           <nav className="hidden md:flex items-center gap-8">
-            <a 
-              href="#services" 
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('services');
-              }}
-              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
-            >
-              Servizi
-            </a>
-            <a 
-              href="#gaming-tech" 
-              onClick={(e) => {
-                e.preventDefault();
-                scrollToSection('gaming-tech');
-              }}
-              className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
-            >
-              Games & Tech
-            </a>
+            <div className="relative group">
+              <button 
+                className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
+              >
+                Servizi
+              </button>
+              <div className="absolute left-0 top-full mt-2 w-48 bg-background border-2 border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+                <a 
+                  href="#services" 
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('services');
+                  }}
+                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-primary/5 font-gaming font-bold transition-colors text-sm tracking-wider border-b border-border"
+                >
+                  Servizi Coaching
+                </a>
+                <a 
+                  href="#gaming-tech" 
+                  onClick={(e) => {
+                    e.preventDefault();
+                    scrollToSection('gaming-tech');
+                  }}
+                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-primary/5 font-gaming font-bold transition-colors text-sm tracking-wider"
+                >
+                  Games & Tech
+                </a>
+              </div>
+            </div>
             <a 
               href="/inventario"
               className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-sm tracking-wider"
@@ -85,26 +94,31 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent side="right" className="w-[80vw] sm:w-[350px] bg-background border-l-2 border-accent/30">
               <nav className="flex flex-col gap-6 mt-8">
-                <a 
-                  href="#services" 
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection('services');
-                  }}
-                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
-                >
-                  Servizi
-                </a>
-                <a 
-                  href="#gaming-tech" 
-                  onClick={(e) => {
-                    e.preventDefault();
-                    scrollToSection('gaming-tech');
-                  }}
-                  className="text-foreground hover:text-primary font-gaming font-bold transition-colors uppercase text-lg tracking-wider border-b border-accent/20 pb-3"
-                >
-                  Games & Tech
-                </a>
+                <div className="border-b border-accent/20 pb-3">
+                  <p className="text-foreground font-gaming font-bold uppercase text-lg tracking-wider mb-3">Servizi</p>
+                  <div className="flex flex-col gap-3 ml-4">
+                    <a 
+                      href="#services" 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        scrollToSection('services');
+                      }}
+                      className="text-foreground hover:text-primary font-gaming font-bold transition-colors text-base tracking-wider"
+                    >
+                      Servizi Coaching
+                    </a>
+                    <a 
+                      href="#gaming-tech" 
+                      onClick={(e) => {
+                        e.preventDefault();
+                        scrollToSection('gaming-tech');
+                      }}
+                      className="text-foreground hover:text-primary font-gaming font-bold transition-colors text-base tracking-wider"
+                    >
+                      Games & Tech
+                    </a>
+                  </div>
+                </div>
                 <a 
                   href="/inventario"
                   onClick={() => setOpen(false)}

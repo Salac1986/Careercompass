@@ -4,24 +4,24 @@ import { Briefcase, GraduationCap, Building2, Gamepad2 } from "lucide-react";
 const services = [
   {
     icon: GraduationCap,
-    title: "First Quest",
-    subtitle: "Orientamento per Studenti",
-    description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries: dall'università in Italia o all'estero, alle prime scelte professionali.",
-    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
+    title: "🎮 First Quest",
+    subtitle: "Orientamento per Studenti nel Gaming & Tech",
+    description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries con un percorso chiaro, realistico e competitivo.",
+    highlights: ["Scelta del Ruolo nel Settore", "Roadmap di Ingresso nel Gaming/Tech", "Portfolio Starter Kit", "Italia vs Estero: Strategia di Accesso"]
   },
   {
     icon: Briefcase,
-    title: "The Map to Your Next Mission",
-    subtitle: "Orientamento Professionale",
-    description: "Guida per professionisti nel gaming, big tech e creative industries che vogliono crescere, fare una transizione o ridefinire la propria carriera.",
-    highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
+    title: "🚀 The Map to Your Next Mission",
+    subtitle: "Career Coaching per Gaming & Tech",
+    description: "Percorso per chi vuole entrare o crescere nel settore: posizionamento, portfolio, strategia, interviste e accesso alle aziende giuste.",
+    highlights: ["Audit di CV, Portfolio & ArtStation/GitHub", "Strategia per Entrare nelle Aziende", "Mock Interview & Test Task Prep", "Personal Branding per il Settore"]
   },
   {
     icon: Building2,
-    title: "Guild Recruitment",
-    subtitle: "Servizi di Recruiting per Aziende",
-    description: "Supporto specializzato per aziende nel gaming, big tech e creative industries nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e corporate.",
-    highlights: ["Talent Acquisition", "Screening Candidati", "Recruitment Strategico", "Employer Branding"]
+    title: "🏹 Guild Recruitment",
+    subtitle: "Recruiting per Aziende Gaming & Tech",
+    description: "Supporto specializzato per aziende nel gaming, tech e creative industries nella ricerca di talenti che parlano la stessa lingua del settore.",
+    highlights: ["Talent Acquisition Specializzata", "Sourcing su Canali del Settore", "Employer Branding per Gaming/Tech", "Recruitment Partnership Flessibile"]
   }
 ];
 
