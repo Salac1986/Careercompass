@@ -34,14 +34,14 @@ const Header = () => {
               >
                 Servizi
               </button>
-              <div className="absolute left-0 top-full mt-2 w-48 bg-background border-2 border-border rounded-lg shadow-lg opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="absolute left-0 top-full mt-2 w-48 bg-background border-2 border-border rounded-lg shadow-lg opacity-0 invisible scale-95 translate-y-[-10px] group-hover:opacity-100 group-hover:visible group-hover:scale-100 group-hover:translate-y-0 transition-all duration-300 ease-out">
                 <a 
                   href="#services" 
                   onClick={(e) => {
                     e.preventDefault();
                     scrollToSection('services');
                   }}
-                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-primary/5 font-gaming font-bold transition-colors text-sm tracking-wider border-b border-border"
+                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-primary/5 font-gaming font-bold transition-all duration-200 text-sm tracking-wider border-b border-border hover:translate-x-1"
                 >
                   Servizi Coaching
                 </a>
@@ -51,7 +51,7 @@ const Header = () => {
                     e.preventDefault();
                     scrollToSection('gaming-tech');
                   }}
-                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-primary/5 font-gaming font-bold transition-colors text-sm tracking-wider"
+                  className="block px-4 py-3 text-foreground hover:text-primary hover:bg-primary/5 font-gaming font-bold transition-all duration-200 text-sm tracking-wider hover:translate-x-1"
                 >
                   Games & Tech
                 </a>
