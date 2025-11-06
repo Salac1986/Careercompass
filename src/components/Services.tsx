@@ -3,24 +3,24 @@ import { Briefcase, GraduationCap, Building2 } from "lucide-react";
 
 const services = [
   {
-    icon: GraduationCap,
-    title: "First Quest",
-    subtitle: "Orientamento per Studenti",
-    description: "Per studenti che vogliono entrare nel mondo del gaming, tech e creative industries: dall'università in Italia o all'estero, alle prime scelte professionali.",
-    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
-  },
-  {
     icon: Briefcase,
-    title: "The Map to Your Next Mission",
+    title: "Career Navigator",
     subtitle: "Orientamento Professionale",
-    description: "Guida per professionisti nel gaming, big tech e creative industries che vogliono crescere, fare una transizione o ridefinire la propria carriera.",
+    description: "Guida per professionisti che vogliono crescere, fare una transizione o ridefinire la propria carriera in qualsiasi settore.",
     highlights: ["Strategia di Carriera", "Preparazione Colloqui", "CV Professionale", "Negoziazione Salariale"]
   },
   {
+    icon: GraduationCap,
+    title: "Student Launchpad",
+    subtitle: "Orientamento per Studenti",
+    description: "Per studenti che vogliono orientarsi nel mondo accademico e professionale: dall'università in Italia o all'estero, alle prime scelte di carriera.",
+    highlights: ["Scelta Universitaria", "Orientamento Accademico", "Percorsi di Studio all'Estero", "Preparazione al Mondo del Lavoro"]
+  },
+  {
     icon: Building2,
-    title: "Guild Recruitment",
+    title: "Build Your Team",
     subtitle: "Servizi di Recruiting per Aziende",
-    description: "Supporto specializzato per aziende nel gaming, big tech e creative industries nella ricerca e selezione di talenti qualificati in ambito artistico, tech, marketing e corporate.",
+    description: "Supporto specializzato per aziende nella ricerca e selezione di talenti qualificati in diversi settori e funzioni aziendali.",
     highlights: ["Talent Acquisition", "Screening Candidati", "Recruitment Strategico", "Employer Branding"]
   }
 ];
@@ -50,7 +50,7 @@ const Services = () => {
             Percorsi Professionali
           </h2>
           <p className="text-base sm:text-lg md:text-xl font-tech text-muted-foreground max-w-2xl mx-auto">
-            Soluzioni personalizzate per studenti, professionisti e aziende nel mondo del gaming, tech e creative industries.
+            Soluzioni personalizzate per professionisti, studenti e aziende.
           </p>
         </div>
 
@@ -91,6 +91,24 @@ const Services = () => {
               </Card>
             );
           })}
+        </div>
+
+        {/* Gaming & Tech specialized services link */}
+        <div className="mt-16 text-center">
+          <div className="inline-block p-6 bg-accent/5 border-2 border-accent/30 rounded-lg hover:border-accent transition-all">
+            <p className="text-foreground font-tech text-lg mb-3">
+              Vuoi fare carriera nel gaming, tech o creative industries?
+            </p>
+            <p className="text-muted-foreground font-tech text-sm">
+              Dai un'occhiata ai miei percorsi dedicati 👉{" "}
+              <a 
+                href="#gaming-tech" 
+                className="text-accent font-bold hover:underline"
+              >
+                Games & Tech Pro
+              </a>
+            </p>
+          </div>
         </div>
       </div>
     </section>
