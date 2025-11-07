@@ -115,20 +115,6 @@ const GamesTechPro = () => {
             <GamesTechCard key={index} service={service} index={index} />
           ))}
         </div>
-
-        {/* Back to general services link */}
-        <div className="mt-16 text-center">
-          <a 
-            href="#services"
-            onClick={(e) => {
-              e.preventDefault();
-              document.getElementById('services')?.scrollIntoView({ behavior: 'smooth' });
-            }}
-            className="inline-block px-6 py-3 bg-background border-2 border-border hover:border-primary text-foreground hover:text-primary font-gaming font-bold uppercase text-sm tracking-wider rounded-lg transition-all"
-          >
-            ← Torna ai Percorsi Generici
-          </a>
-        </div>
       </div>
     </section>
   );
